@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/LeandrexFC/My-Portfolio/static/css/main.abd7e1c1.css",
-    "main.js": "/LeandrexFC/My-Portfolio/static/js/main.9a8f0498.js",
-    "static/media/profile-pic Linkedin.png": "/LeandrexFC/My-Portfolio/static/media/profile-pic Linkedin.dd1e04102c91164abbf9.png",
-    "static/media/jestLogo.png": "/LeandrexFC/My-Portfolio/static/media/jestLogo.95bffbbd80a3ba10dfa4.png",
-    "static/media/javascriptLogo.png": "/LeandrexFC/My-Portfolio/static/media/javascriptLogo.fd668b084a25f663bf42.png",
-    "static/media/lsLogo.jpg": "/LeandrexFC/My-Portfolio/static/media/lsLogo.5f80874186ecf37c8afa.jpg",
-    "static/media/htmlLogo.png": "/LeandrexFC/My-Portfolio/static/media/htmlLogo.ce2ff90d502c7f9613cc.png",
-    "static/media/LinkedinLogo.png": "/LeandrexFC/My-Portfolio/static/media/LinkedinLogo.ba884e1f9ad4362348c1.png",
-    "static/media/cssLogo.png": "/LeandrexFC/My-Portfolio/static/media/cssLogo.bc75ccc78e3bf74f8aed.png",
-    "static/media/reactLogo.png": "/LeandrexFC/My-Portfolio/static/media/reactLogo.367a8df5ba9c7a95160e.png",
-    "static/media/emailLogo.png": "/LeandrexFC/My-Portfolio/static/media/emailLogo.f33e9d7389425e7ac652.png",
-    "index.html": "/LeandrexFC/My-Portfolio/index.html",
-    "main.abd7e1c1.css.map": "/LeandrexFC/My-Portfolio/static/css/main.abd7e1c1.css.map",
-    "main.9a8f0498.js.map": "/LeandrexFC/My-Portfolio/static/js/main.9a8f0498.js.map"
+    "main.css": "/My-Portfolio/static/css/main.abd7e1c1.css",
+    "main.js": "/My-Portfolio/static/js/main.dc190caa.js",
+    "static/media/profile-pic Linkedin.png": "/My-Portfolio/static/media/profile-pic Linkedin.dd1e04102c91164abbf9.png",
+    "static/media/jestLogo.png": "/My-Portfolio/static/media/jestLogo.95bffbbd80a3ba10dfa4.png",
+    "static/media/javascriptLogo.png": "/My-Portfolio/static/media/javascriptLogo.fd668b084a25f663bf42.png",
+    "static/media/lsLogo.jpg": "/My-Portfolio/static/media/lsLogo.5f80874186ecf37c8afa.jpg",
+    "static/media/htmlLogo.png": "/My-Portfolio/static/media/htmlLogo.ce2ff90d502c7f9613cc.png",
+    "static/media/LinkedinLogo.png": "/My-Portfolio/static/media/LinkedinLogo.ba884e1f9ad4362348c1.png",
+    "static/media/cssLogo.png": "/My-Portfolio/static/media/cssLogo.bc75ccc78e3bf74f8aed.png",
+    "static/media/reactLogo.png": "/My-Portfolio/static/media/reactLogo.367a8df5ba9c7a95160e.png",
+    "static/media/emailLogo.png": "/My-Portfolio/static/media/emailLogo.f33e9d7389425e7ac652.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.abd7e1c1.css.map": "/My-Portfolio/static/css/main.abd7e1c1.css.map",
+    "main.dc190caa.js.map": "/My-Portfolio/static/js/main.dc190caa.js.map"
   },
   "entrypoints": [
     "static/css/main.abd7e1c1.css",
-    "static/js/main.9a8f0498.js"
+    "static/js/main.dc190caa.js"
   ]
 }
