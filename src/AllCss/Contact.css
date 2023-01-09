@@ -1,0 +1,59 @@
+#allContact {
+ display: flex;
+ margin-left: 180px;
+ margin-top: 70px;
+}
+
+#allContactText {
+  display: flex;
+  flex-direction: column;
+ }
+
+#allContactImg {
+  margin-left: 10px;
+  width: 50%;
+  display: flex;
+}
+
+.linkedinImg {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.emailImg {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.linkedinA {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 100px;
+  color: white;
+}
+
+.emailA {
+  text-decoration: none;
+  color: white;
+}
+
+#contactProfilePic {
+  width: 300px;
+  margin-left: -100px;
+  margin-top: 300px;
+}
+
+.contactTitle {
+  margin-top: 0px;
+  margin-left: 300px;
+  font-size: 130px;
+  color: white;
+}
+
+.contactText {
+  color: white;
+}

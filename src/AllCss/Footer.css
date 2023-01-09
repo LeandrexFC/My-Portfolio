@@ -1,0 +1,32 @@
+#footer {
+  background-color: #DCDCDC;
+  margin-top: 100px;
+}
+
+#allFooterImg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footerLinkedinImg{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footerEmailImg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footerGitImg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#footerText {
+ margin-right: 900px;
+}

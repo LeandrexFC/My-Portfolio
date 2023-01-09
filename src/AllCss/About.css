@@ -1,0 +1,30 @@
+.aboutFooter {
+  background-color: #DCDCDC;
+  margin-top: 129px;
+}
+
+.aboutText {
+  color: white;
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: -70px;
+}
+
+#aboutTitle {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 130px;
+} 
+
+#pAbout {
+  text-align: center;
+  word-spacing: 2px;
+  margin-top: -70px;
+}
+
+#profilePicAbout {
+  width: 200px;
+  margin-top: 15px;
+  margin-left: 550px;
+}

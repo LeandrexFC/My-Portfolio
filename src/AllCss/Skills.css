@@ -1,0 +1,19 @@
+.skillTitle {
+  color: white;
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 100px;
+  font-size: 130px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-direction:row
+} 
+
+.skillsImg {
+  width: 100px;
+  margin-right: 10px;
+}
