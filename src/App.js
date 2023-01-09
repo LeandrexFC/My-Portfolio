@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter, Route } from 'react-router-dom';
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -18,7 +18,5 @@ function App() {
     </HashRouter>
   );
 }
-
-const Home = () => (<div> test </div>)
 
 export default App;
