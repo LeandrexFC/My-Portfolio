@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.abd7e1c1.css",
-    "main.js": "/My-Portfolio/static/js/main.1f5516aa.js",
+    "main.css": "/My-Portfolio/static/css/main.72e2ed9f.css",
+    "main.js": "/My-Portfolio/static/js/main.8cc98cb8.js",
     "static/media/profile-pic Linkedin.png": "/My-Portfolio/static/media/profile-pic Linkedin.dd1e04102c91164abbf9.png",
     "static/media/jestLogo.png": "/My-Portfolio/static/media/jestLogo.95bffbbd80a3ba10dfa4.png",
+    "static/media/htmlLogo.png": "/My-Portfolio/static/media/htmlLogo.ff5e134c4ecfaecba2bc.png",
     "static/media/javascriptLogo.png": "/My-Portfolio/static/media/javascriptLogo.fd668b084a25f663bf42.png",
     "static/media/lsLogo.jpg": "/My-Portfolio/static/media/lsLogo.5f80874186ecf37c8afa.jpg",
-    "static/media/htmlLogo.png": "/My-Portfolio/static/media/htmlLogo.ce2ff90d502c7f9613cc.png",
     "static/media/LinkedinLogo.png": "/My-Portfolio/static/media/LinkedinLogo.ba884e1f9ad4362348c1.png",
     "static/media/cssLogo.png": "/My-Portfolio/static/media/cssLogo.bc75ccc78e3bf74f8aed.png",
     "static/media/reactLogo.png": "/My-Portfolio/static/media/reactLogo.367a8df5ba9c7a95160e.png",
     "static/media/emailLogo.png": "/My-Portfolio/static/media/emailLogo.f33e9d7389425e7ac652.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.abd7e1c1.css.map": "/My-Portfolio/static/css/main.abd7e1c1.css.map",
-    "main.1f5516aa.js.map": "/My-Portfolio/static/js/main.1f5516aa.js.map"
+    "main.72e2ed9f.css.map": "/My-Portfolio/static/css/main.72e2ed9f.css.map",
+    "main.8cc98cb8.js.map": "/My-Portfolio/static/js/main.8cc98cb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd7e1c1.css",
-    "static/js/main.1f5516aa.js"
+    "static/css/main.72e2ed9f.css",
+    "static/js/main.8cc98cb8.js"
   ]
 }
