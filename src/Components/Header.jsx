@@ -7,12 +7,12 @@ class Header extends Component {
   render() {
     return (
       <header>
+        <img  className='lsLogo' src={ lsLogo } alt='lsLogo' />
         <Link  id='about' to="/about"> About </Link>
         <Link id='skills' to='/skills'> Skills </Link>
         <Link id='projects' to="/projects"> Portfolio </Link>
         <Link id='contact' to="/contact"> Contact </Link>
         <Link className='lsLogo' to='/'>
-        <img  className='lsLogo' src={ lsLogo } alt='lsLogo' />
         </Link>
       </header>
     )

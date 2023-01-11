@@ -6,16 +6,9 @@ import profilePic from '../images/profile-pic Linkedin.png';
 import LinkedinLogo from '../images/LinkedinLogo.png';
 import emailLogo from '../images/emailLogo.png';
 import Footer from '../Components/Footer';
-import htmlLogo from '../images/htmlLogo.png'
-import cssLogo from '../images/cssLogo.png'
-import jsLogo from '../images/javascriptLogo.png'
-import reactLogo from '../images/reactLogo.png'
-import jestLogo from '../images/jestLogo.png'
-import rtlLogo from '../images/rtlLogo.png'
-import gitLogo from '../images/gitLogo.png'
-import githubLogo from '../images/githubLogo.png'
 import Fade from 'react-reveal/Fade';
 import Typing from 'react-typing-animation';
+import SkillsHome from '../Components/SkillsHome';
 
 class Home extends Component {
 
@@ -31,13 +24,15 @@ class Home extends Component {
         <Header />
          <Fade left>
         <div className='welcome'>
-          <div>
-          <h1 className='text1'> Welcome. </h1>
+          <div className='welcomeText'>
+            <h1 className='text1'> Welcome. </h1>
           </div>
           <Typing speed={50}>
-          <p className='textp'> 
-          My name is Leandro Sousa, I'm a Web developer from São Paulo, BR, And I'm Loving the Developer World. 
-          </p>
+          <div className='welcomeP'>
+            <p className='textp'> 
+            My name is Leandro Sousa, I'm a Web developer from São Paulo, BR, And I'm Loving the Developer World. 
+            </p>
+          </div>
           </Typing>
           <button className='btn-home' type='button' onClick={ this.redirectToProjects }> My Projects </button>
         </div>
@@ -59,56 +54,8 @@ class Home extends Component {
         </Fade>
           
         </section>
-
         <Fade left>
-          <h1 className='skillTitleHome'>Skills.</h1>
-        </Fade>
-        <Fade left>
-        <div className='skillsHome'>
-          <div className='card 1'>
-            <img className='skillsImgHome' src={ htmlLogo } alt='html Logo' />
-            <p>HTML</p>
-          </div>
-
-          <div className='card 2'>
-            <img className='skillsImgHome' src={ cssLogo }  alt='css Logo' />
-            <p>CSS</p>
-          </div>
-
-          <div className='card 3'>
-            <img className='skillsImgHome' src={ jsLogo } alt='js Logo' />
-            <p>JavaScript</p>
-            {/* <p className='teast' hidden >test</p> */}
-          </div>
-
-          <div className='card 4'>
-            <img className='skillsImgHome' src={ reactLogo }  alt='react Logo' />
-            <p>React</p>
-          </div>
-
-          <div className='card 5'>
-            <img className='skillsImgHome' src={ jestLogo } alt='jest Logo' />
-            <p>Jest</p>
-          </div>
-
-          <div className='card 6'>
-            <img className='skillsImgHome' src={ rtlLogo } alt='rtl Logo' />
-            <p>RTL</p>
-          </div>
-
-          <div className='card 7'>
-            <img className='skillsImgHome' src={ gitLogo } alt='git Logo' />
-            <p>Git</p>
-          </div>
-
-          <div className='card 8'>
-            <img className='skillsImgHome' src={ githubLogo } alt='gitHub Logo' />
-            <p>GitHub</p>
-          </div>
-          <div className='skillsKnow'>
-            <p>Passe o mouse nos cards para saber mais</p>
-          </div>
-        </div>
+        <SkillsHome />
         </Fade>
 
       <section className='projectsHome'>
@@ -135,9 +82,6 @@ class Home extends Component {
         </div>   
         </Fade>
         </div>
-        {/* <div id='MyImgHome'>
-          <img id='contactProfilePicHome' src={ profilePic } alt='Leandro img' />
-        </div> */}
       </section>
       
       <div id='homeFooter'>

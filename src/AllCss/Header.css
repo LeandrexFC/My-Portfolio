@@ -1,20 +1,16 @@
 header {
-  text-decoration: none;
   background-color: #937047;
-  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #projects, #about, #contact, #skills {
   text-decoration: none;
-  display: inline-block;
-  margin-inline-start: 220px;
   color: white;
   font-size: 20px;
 }
 
 .lsLogo {
-  width: 120px;
-  float: left;
-  margin-top: -30px;
-  margin-left: 30px;
+  width: 80px;
 }

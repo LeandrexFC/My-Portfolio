@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #241f1c;
   font-family: 'Bebas Neue';
@@ -9,48 +15,33 @@ body {
 }
 
 .welcome {
-  width: 100%;
-  height: 600px;
-  margin-top: 160px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+
+.welcomeText {
+
 }
 
 .text1 {
-  margin-top: 100px;
   color: #e7dac7;
-  margin-left: 40px;
   font-size: 120px;
+}
+
+.welcomeP {
+  /* transform: translateY(-15vh); */
 }
 
 .textp {
   color: white;
-  margin-left: 40px;
   font-size: 20px;
-  margin-top: -60px;
 }
 
 .btn-home {
-  margin-left: 40px;
-	box-shadow: 0px 1px 0px 0px #bbdaf7;
-	background-color:#4682B4;
-	border-radius:6px;
-	border:1px solid #4682B4;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:14px 40px;
-	text-decoration:none;
-	text-shadow:0px -1px 0px #528ecc;
-}
-.btn-home:hover {
-	background-color:#4682B4;
-}
-.btn-home:active {
-	position:relative;
-	top:1px;
+  width: 130px;
 }
 
 #profilePic {
@@ -131,58 +122,6 @@ body {
    text-decoration: none;
    color: black;
  }
-
-.skillTitleHome {
-  color: white;
-  width: 500px;
-  text-align: center;
-  margin-left: 400px;
-  margin-top: 100px;
-  font-size: 60px;
-}
-
-.skillsHome {
-  /* margin-top: 300px; */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-} 
-
-.skillsImgHome {
-  width: 70px;
-  margin-right: 10px;
-}
-
-.skillsKnow {
-  
-}
-
-.card {
-  border-radius: 5px;
-  box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
-  padding: 20px;
-  /* margin: 20px; */
-  width: 140px;
-  transition: all 0.3s ease-out;
-  margin-right: 100px;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  cursor: pointer;
-}
-
-.card p {
-  color: white;
-  font-size: 16px;
-  text-align: center;
-}
-
-/* .teast {
-  visibility: visible;
-} */
 
 .projectsTitleHome {
   color: white;
