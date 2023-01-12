@@ -30,6 +30,7 @@ import '../AllCss/Skills2.css'
         <Fade left>
           <h1 className='skillTitleHome'>Skills.</h1>
         </Fade>
+      <div className='test'>
       <div className='skillsHome'>
             <div onMouseEnter={ () => this.setState({ showTextHTML: true, showText: false }) }
                  onMouseLeave={ () => this.setState({ showTextHTML: false, showText: true }) }
@@ -124,6 +125,7 @@ import '../AllCss/Skills2.css'
             {
               showTextGitHub && <p className='skillstexts'> GitHub is a web-based platform that provides hosting for software development and a community platform for developers to collaborate, share and learn together. </p>
             }
+          </div>
           </div>
           </>
     )

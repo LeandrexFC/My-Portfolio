@@ -1,35 +1,38 @@
+.test {
+  display: flex;
+    /* flex-direction: column; */
+    height: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 .skillTitleHome {
   color: white;
-  width: 500px;
   text-align: center;
-  margin-left: 400px;
-  margin-top: 100px;
   font-size: 60px;
 }
 
 .skillsHome {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 800px;
-  margin-left: 20px;
+  /* justify-content: center; */
 }
 
 .skillsImgHome {
+  display: flex; 
   width: 70px;
-  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   border-radius: 5px;
   box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
-  padding: 20px;
-  /* margin: 20px; */
-  width: 140px;
+  padding: 10px; 
+  width: 150px; 
   transition: all 0.3s ease-out;
-  /* margin-right: 100px; */
 }
 
 .card:hover {
@@ -40,16 +43,13 @@
 .card p {
   color: white;
   font-size: 16px;
-  text-align: center;
+  margin-top: 8px;
 }
 
 .skillsKnow {
   color: white;
-  float: right;
-  margin-top: -250px;
-  margin-right: 130px; 
+  /* float: right; */
   width: 300px;
-  
 }
 
  .skillstexts {
