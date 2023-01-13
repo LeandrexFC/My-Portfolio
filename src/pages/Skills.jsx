@@ -10,6 +10,7 @@ import rtlLogo from '../images/rtlLogo.png'
 import gitLogo from '../images/gitLogo.png'
 import githubLogo from '../images/githubLogo.png'
 import Fade from 'react-reveal/Fade';
+import Footer from '../Components/Footer'
 
 class Skills extends Component {
   render() {
@@ -33,6 +34,9 @@ class Skills extends Component {
           <img className='skillsImg' src={ githubLogo } alt='gitHub Logo' />
         </div>
         </Fade>
+      <div className='skillsFooter'>
+        <Footer />
+      </div>
       </div>
     )
   }

@@ -67,10 +67,12 @@ class Home extends Component {
       <section id='allContactHome'>
         <div id='allContactTextHome'>
         <Fade left>
+          <h1 className='contactTitleHome'> Contact.</h1>
           <h1 className='contactTextHome'>Hey,</h1>
           <h2 className='contactTextHome'>For some reason do you wanna talk to me?</h2>
-          <h2 h2 className='contactTextHoe'>You can text me here:</h2>
+          <h2 h2 className='contactTextHome'>You can text me here:</h2>
         </Fade>
+        </div>
         <Fade>
         <div id='allContactImgHome'>
           <a className='linkedinAHome' href='https://www.linkedin.com/in/leandro-sousa-dev/' target='_blank' rel="noreferrer">
@@ -81,7 +83,6 @@ class Home extends Component {
           </a>
         </div>   
         </Fade>
-        </div>
       </section>
       
       <div id='homeFooter'>

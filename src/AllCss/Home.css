@@ -7,6 +7,7 @@
 body {
   background-color: #241f1c;
   font-family: 'Bebas Neue';
+  
 }  
 
 .imgDiv {
@@ -68,44 +69,47 @@ body {
 
 #allContactHome {
   text-align: center;
-  display: flex;
-  margin-left: 180px;
-  margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
  }
  
  #allContactTextHome {
-   margin-top: 30px;
-   margin-left: 230px;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   color: white;
+  text-align: center;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .contactTitleHome {
+    font-size: 130px;
+    color: white;
   }
  
- #allContactImgHome {
-   margin-left: 140px;
-   width: 50%;
-   display: flex;
- }
+  #allContactImgHome {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ } 
  
  .linkedinImgHome {
    width: 60px;
    height: 60px;
-   margin-right: 10px;
-   margin-top: 30px;
  }
  
  .emailImgHome {
    width: 60px;
    height: 60px;
-   margin-right: 10px;
-   margin-top: 30px;
  }
  
  .linkedinAHome {
    text-decoration: none;
-   margin-left: 10px;
-   margin-right: 100px;
    color: black;
  }
  

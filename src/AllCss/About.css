@@ -1,6 +1,9 @@
 .aboutFooter {
   background-color: #DCDCDC;
-  margin-top: 129px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
 }
 
 .aboutText {

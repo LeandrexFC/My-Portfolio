@@ -9,18 +9,18 @@ class Footer extends Component {
     return (
       <>
       <footer id='footer'>
+        <p id='footerText'>  &nbsp; © 2023 Leandro Sousa</p>
         <div id='allFooterImg'>
-        <p id='footerText'>© 2023 Leandro Sousa</p>
         <a href='https://www.linkedin.com/in/leandro-sousa-dev/' target='_blank' rel="noreferrer">
-        <img src={ LinkedinLogo } alt='Linkedin Logo' className='footerLinkedinImg'/>
+        <img src={ LinkedinLogo } alt='Linkedin Logo' className='footerLinkedinImg' />
         </a>
-
+      
         <a href="mailto:leandro.sousa23tec@gmail.com">
         <img src={ emailLogo } alt='Email logo' className='footerEmailImg' />
         </a>
 
         <a href='https://github.com/LeandrexFC' target='_blank' rel="noreferrer">
-        <img src={ GitHubLogo } alt='GitHub Logo' className='footerGitImg'></img>
+        <img src={ GitHubLogo } alt='GitHub Logo' className='footerGitImg'></img> 
         </a>
         </div>
 
