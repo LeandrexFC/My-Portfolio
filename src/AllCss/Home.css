@@ -32,7 +32,11 @@ body {
 }
 
 .btn-home {
+  cursor: pointer;
+  background-color: #87CEFA;
   width: 130px;
+  height: 30px;
+  border-radius: 50px;
 }
 
 #profilePic {

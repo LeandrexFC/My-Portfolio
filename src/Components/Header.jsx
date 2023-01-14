@@ -9,13 +9,13 @@ class Header extends Component {
     return (
       <Fade  top>
       <header>
+        <Link className='lsLogo' to='/'>
         <img  className='lsLogo' src={ lsLogo } alt='lsLogo' />
+        </Link>
         <Link  id='about' to="/about"> About </Link>
         <Link id='skills' to='/skills'> Skills </Link>
         <Link id='projects' to="/projects"> Portfolio </Link>
         <Link id='contact' to="/contact"> Contact </Link>
-        <Link className='lsLogo' to='/'>
-        </Link>
       </header>
       </Fade>
     )

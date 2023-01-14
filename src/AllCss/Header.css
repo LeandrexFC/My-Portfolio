@@ -1,5 +1,5 @@
 header {
-  background-color: #9fafca;
+  background-color: #87CEFA;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -16,9 +16,10 @@ header {
 }
 
 #skills:hover, #projects:hover, #about:hover, #contact:hover {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .lsLogo {
   width: 80px;
+  border-radius: 100%;
 }
