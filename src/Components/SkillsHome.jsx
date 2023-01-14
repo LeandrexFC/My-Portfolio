@@ -28,67 +28,70 @@ import '../AllCss/Skills2.css'
     return (
       <>
         <Fade left>
-          <h1 className='skillTitleHome'>Skills.</h1>
+          <h1 className='skillTitleHome skillTitle'>Skills.</h1>
         </Fade>
-      <div className='test'>
-      <div className='skillsHome'>
+        <div className='skill-content skill'>
+        <Fade left>
+          <div className='skillsHome'>
             <div onMouseEnter={ () => this.setState({ showTextHTML: true, showText: false }) }
                  onMouseLeave={ () => this.setState({ showTextHTML: false, showText: true }) }
                  className='card 1'>
-            <img className='skillsImgHome imgt' src={ htmlLogo } alt='html Logo' />
-            <p>HTML</p> 
-          </div>
+              <img className='skillsImgHome imgt' src={ htmlLogo } alt='html Logo' />
+              <p>HTML</p> 
+            </div>
 
-          <div className='card 2'
+            <div className='card 2'
                onMouseEnter={ () => this.setState({ showTextCSS: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextCSS: false, showText: true }) }>
-            <img className='skillsImgHome' src={ cssLogo }  alt='css Logo' />
-            <p>CSS</p>
-          </div>
+              <img className='skillsImgHome imgt' src={ cssLogo }  alt='css Logo' />
+              <p>CSS</p>
+            </div>
 
-          <div className='card 3'
+            <div className='card 3'
                onMouseEnter={ () => this.setState({ showTextjs: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextjs: false, showText: true }) }>
-            <img className='skillsImgHome' src={ jsLogo } alt='js Logo' />
-            <p>JavaScript</p>
+              <img className='skillsImgHome imgt' src={ jsLogo } alt='js Logo' />
+              <p>JavaScript</p>
             {/* <p className='teast' hidden >test</p> */}
-          </div>
+            </div>
 
-          <div className='card 4'
+            <div className='card 4'
                onMouseEnter={ () => this.setState({ showTextReact: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextReact: false, showText: true }) }>
-            <img className='skillsImgHome' src={ reactLogo }  alt='react Logo' />
-            <p>React</p>
-          </div>
+              <img className='skillsImgHome imgt' src={ reactLogo }  alt='react Logo' />
+              <p>React</p>
+            </div>
 
-          <div className='card 5'
+            <div className='card 5'
                onMouseEnter={ () => this.setState({ showTextJest: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextJest: false, showText: true }) }>
-            <img className='skillsImgHome' src={ jestLogo } alt='jest Logo' />
-            <p>Jest</p>
-          </div>
+              <img className='skillsImgHome imgt' src={ jestLogo } alt='jest Logo' />
+              <p>Jest</p>
+            </div>
 
-          <div className='card 6'
+            <div className='card 6'
                onMouseEnter={ () => this.setState({ showTextRtl: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextRtl: false, showText: true }) }>
-            <img className='skillsImgHome' src={ rtlLogo } alt='rtl Logo' />
-            <p>RTL</p>
-          </div>
+              <img className='skillsImgHome imgt' src={ rtlLogo } alt='rtl Logo' />
+              <p>RTL</p>
+            </div>
 
-          <div className='card 7'
+            <div className='card 7'
                 onMouseEnter={ () => this.setState({ showTextGit: true, showText: false }) }
                 onMouseLeave={ () => this.setState({ showTextGit: false, showText: true }) }>
-            <img className='skillsImgHome' src={ gitLogo } alt='git Logo' />
-            <p>Git</p>
-          </div>
+              <img className='skillsImgHome imgt' src={ gitLogo } alt='git Logo' />
+              <p>Git</p>
+            </div>
 
-          <div className='card 8'
+            <div className='card 8'
                onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
-            <img className='skillsImgHome' src={ githubLogo } alt='gitHub Logo' />
-            <p>GitHub</p>
+              <img className='skillsImgHome imgt' src={ githubLogo } alt='gitHub Logo' />
+              <p>GitHub</p>
+            </div>
           </div>
-        </div>
+        </Fade>
+        <Fade left>
           <div className='skillsKnow'>
             {
               showText && <p className='skillstexts'> Hover over a skill to learn more.</p>
@@ -126,7 +129,8 @@ import '../AllCss/Skills2.css'
               showTextGitHub && <p className='skillstexts'> GitHub is a web-based platform that provides hosting for software development and a community platform for developers to collaborate, share and learn together. </p>
             }
           </div>
-          </div>
+          </Fade>
+        </div>
           </>
     )
   }

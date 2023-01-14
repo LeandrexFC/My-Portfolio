@@ -5,14 +5,12 @@
 }
 
 body {
-  background-color: #241f1c;
+  background-color: #040405;
   font-family: 'Bebas Neue';
-  
-}  
+} 
 
 .imgDiv {
-  margin-top: 150px;
-  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .welcome {
@@ -24,7 +22,7 @@ body {
 }
 
 .text1 {
-  color: #e7dac7;
+  color: white;
   font-size: 120px;
 }
 
@@ -39,7 +37,6 @@ body {
 
 #profilePic {
   width: 220px;
-  margin-top: -15px;
   margin-bottom: 25px;
 }
 
@@ -50,7 +47,7 @@ body {
 }
 
 .aboutTextHome2 {
-  background-color: #937047;
+  background-color: #09090b;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,8 +56,8 @@ body {
 }
 
 #aboutTitleHome {
-  font-size: 40px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 80px;
 } 
 
 #pAboutHome {
@@ -69,11 +66,11 @@ body {
 
 #allContactHome {
   text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 700px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 700px;
+  flex-direction: column;
+  justify-content: center;
  }
  
  #allContactTextHome {
@@ -85,8 +82,10 @@ body {
   }
 
   .contactTitleHome {
-    font-size: 130px;
+    margin-top: 30px;
     color: white;
+    text-align: center;
+    font-size: 60px;
   }
  
   #allContactImgHome {
@@ -119,15 +118,16 @@ body {
  }
 
 .projectsTitleHome {
+  margin-top: 30px;
   color: white;
-  width: 500px;
   text-align: center;
-  margin-left: 400px;
-  margin-top: 300px;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .projectsHome {
-  background-color: #937047;
+  display: flex;
+  background-color: #09090b; 
   height: 700px;
+  justify-content: center;
+  align-items: flex-start;
 }

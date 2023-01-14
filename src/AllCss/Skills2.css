@@ -1,28 +1,27 @@
-.test {
+.skill-content {
   display: flex;
-    /* flex-direction: column; */
-    height: 700px;
-    justify-content: space-evenly;
-    align-items: center;
+  height: 700px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 
 .skillTitleHome {
+  margin-top: 30px;
   color: white;
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
 }
 
 .skillsHome {
   display: grid;
   grid-template-columns: repeat(3, 200px);
   align-items: center;
-  /* justify-content: center; */
 }
 
 .skillsImgHome {
   display: flex; 
-  width: 70px;
+  width: 95px;
   justify-content: center;
   align-items: center;
 }
@@ -48,11 +47,9 @@
 
 .skillsKnow {
   color: white;
-  /* float: right; */
   width: 300px;
 }
 
  .skillstexts {
   font-size: 20px;
-  margin-left: 100px;
 } 

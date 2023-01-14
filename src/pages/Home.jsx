@@ -22,7 +22,7 @@ class Home extends Component {
     return (
       <div>
         <Header />
-         <Fade left>
+        <Fade left>
         <div className='welcome'>
           <div className='welcomeText'>
             <h1 className='text1'> Welcome. </h1>
@@ -36,32 +36,33 @@ class Home extends Component {
           </Typing>
           <button className='btn-home' type='button' onClick={ this.redirectToProjects }> My Projects </button>
         </div>
-         </Fade>
+        </Fade>
 
         <section className='aboutTextHome2' >
-        <Fade left>
-        <div className='imgDiv'>
-          <img id='profilePic' src={ profilePic } alt='Leandro img' />
-        </div> 
-        </Fade>
-
-        <Fade left>
-        <div className='aboutTextHome'>
-        <h1 id='aboutTitleHome'>About.</h1>
-          <p id='pAboutHome'> Hey, My name is Leandro Sousa, and I'm 19 years old, I have always been passionate about technology, I always had many doubts about which career to pursue until I found and discovered programming, from the first contact I had I fell in love, since then I started to always want to learn more.I'm currently studying Full Stack Web Development, and I'm learning more every day, and every project I complete makes me happier.
-          My dream is to be happy with my career, travel the world and make a positive impact on people's lives with my programming knowledge, and I won't stop until I achieve that. </p>
-        </div>
-        </Fade>
-          
+          <div className='aboutTextHome'>
+            <Fade Fade left>
+            <h1 id='aboutTitleHome'>About.</h1>
+            </Fade >
+            <div className='imgDiv'>
+              <Fade left>
+              <img id='profilePic' src={ profilePic } alt='Leandro img' />
+              </Fade>
+              </div> 
+          <Fade left>
+            <p id='pAboutHome'> Hey, My name is Leandro Sousa, and I'm 19 years old, I have always been passionate about technology, I always had many doubts about which career to pursue until I found and discovered programming, from the first contact I had I fell in love, since then I started to always want to learn more.I'm currently studying Full Stack Web Development, and I'm learning more every day, and every project I complete makes me happier.
+            My dream is to be happy with my career, travel the world and make a positive impact on people's lives with my programming knowledge, and I won't stop until I achieve that. </p>
+          </Fade>          
+          </div>
         </section>
+
         <Fade left>
         <SkillsHome />
         </Fade>
 
       <section className='projectsHome'>
-      <Fade left>  
-      <h1 className='projectsTitleHome'> Projects. </h1>
-      </Fade>
+        <Fade left>  
+        <h1 className='projectsTitleHome'> Projects. </h1>
+        </Fade>
       </section>
 
       <section id='allContactHome'>
@@ -84,10 +85,7 @@ class Home extends Component {
         </div>   
         </Fade>
       </section>
-      
-      <div id='homeFooter'>
       <Footer />
-      </div>
       </div>
       
     )

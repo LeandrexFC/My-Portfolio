@@ -2,10 +2,12 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import '../AllCss/Header.css'
 import lsLogo from '../images/lsLogo.jpg'
+import { Fade } from 'react-reveal';
 
 class Header extends Component {
   render() {
     return (
+      <Fade  top>
       <header>
         <img  className='lsLogo' src={ lsLogo } alt='lsLogo' />
         <Link  id='about' to="/about"> About </Link>
@@ -15,6 +17,7 @@ class Header extends Component {
         <Link className='lsLogo' to='/'>
         </Link>
       </header>
+      </Fade>
     )
   }
 }

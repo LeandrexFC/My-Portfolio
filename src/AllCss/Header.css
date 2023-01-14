@@ -1,5 +1,5 @@
 header {
-  background-color: #937047;
+  background-color: #9fafca;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -13,6 +13,10 @@ header {
   text-decoration: none;
   color: white;
   font-size: 20px;
+}
+
+#skills:hover, #projects:hover, #about:hover, #contact:hover {
+  opacity: 0.3;
 }
 
 .lsLogo {
