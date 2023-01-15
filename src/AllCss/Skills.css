@@ -1,18 +1,19 @@
 .skillTitle {
   margin-top: 100px;
-  font-size: 80px;
+  font-size: 4rem;
 }
 
 .skill {
   display: flex;
-  height: 600px;
+  height: 100vh;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .imgt {
-  display: flex; 
-  width: 85px;
+  display: flex;
+  width: 100%; 
+  max-width: 85px;
   justify-content: center;
   align-items: center;
 }

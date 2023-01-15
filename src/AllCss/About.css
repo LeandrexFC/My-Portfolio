@@ -2,28 +2,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 700px;
+  height: 100vh;
 }
 
 .aboutText {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   text-align: center;
   color: white;
 }
 
 #aboutTitle {
   margin-top: 100px;
-  font-size: 100px;
+  font-size: 10rem;
 } 
 
 #pAbout {
+  font-size: 1.6rem;
   word-spacing: 2px;
   margin-bottom: 20px;
   /* height: 500px; */
 }
 
 #profilePicAbout {
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   margin-bottom: 10px;
 }
 
@@ -36,4 +39,23 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 571px) {
+  #aboutTitle {
+    font-size: 4rem;
+  }
+  #pAbout {
+    font-size: 1.4rem;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #profilePicAbout {
+    margin-top: 20px;
+    width: 140px;
+  }
+  
 }

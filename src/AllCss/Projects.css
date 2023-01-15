@@ -1,7 +1,11 @@
+.projects {
+  height: 100vh;
+}
+
 .projectsTitle {
   color: white;
   margin-top: 100px;
-  font-size: 100px;
+  font-size: 10rem;
   text-align: center;
 }
 
@@ -11,4 +15,10 @@
   bottom: 0;
   width: 100%;
   display: flex;
+}
+
+@media (max-width: 571px) {
+  .projectsTitle {
+    font-size: 4rem;
+  }
 }

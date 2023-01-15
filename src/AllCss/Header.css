@@ -1,4 +1,4 @@
-header {
+.header, .headerr {
   background-color: #87CEFA;
   display: flex;
   justify-content: space-around;
@@ -12,7 +12,7 @@ header {
 #projects, #about, #contact, #skills {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 #skills:hover, #projects:hover, #about:hover, #contact:hover {
@@ -20,6 +20,14 @@ header {
 }
 
 .lsLogo {
-  width: 80px;
+  width: 90%;
+  max-width: 80px;
   border-radius: 100%;
+}
+
+@media (max-width: 540px) {
+  nav {
+    display: none;
+  }
+
 }

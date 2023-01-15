@@ -2,13 +2,13 @@
   text-align: center;
   display: flex;
   align-items: center;
-  /* height: 700px; */
+  height: 100vh;
   flex-direction: column;
   justify-content: flex-start
 }
 
 #allContactText {
-  font-size: 30px;
+  font-size: 3rem;
   text-align: center;
   display: flex;
   color: white;
@@ -17,7 +17,8 @@
  }
 
 #allContactImg {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -29,8 +30,9 @@
   margin-top: 10px;
   border-radius: 5px;
   /* box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22); */
-  padding: 10px; 
-  width: 150px; 
+  padding: 10px;
+  width: 100%; 
+  max-width: 150px; 
   transition: all 0.3s ease-out;
 }
 
@@ -41,12 +43,14 @@
 }
 
 .linkedinImg {
-  width: 60px;
+  width: 100%;
+  max-width: 60px;
   height: 60px;
 }
 
 .emailImg {
-  width: 60px;
+  width: 100%;
+  max-width: 60px;
   height: 60px;
 }
 
@@ -61,12 +65,13 @@
 }
 
 #contactProfilePic {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
 }
 
 .contactTitle {
   margin-top: 100px;
-  font-size: 100px;
+  font-size: 10rem;
   color: white;
   margin-bottom: 60px;
 }
@@ -81,4 +86,29 @@
   bottom: 0;
   width: 100%;
   display: flex;
+}
+
+@media (max-width: 571px) {
+  .contactTitle {
+    font-size: 4rem;
+    /* margin-top: 2px; */
+  }
+
+  #allContactText {
+    font-size: 2rem;
+  }
+
+  .linkedinImg {
+    margin-top: 100px;
+    width: 20px;
+    max-width: 60px;
+    height: 20px;
+  }
+  
+  .emailImg {
+    margin-top: 100px;
+    width: 25px;
+    max-width: 60px;
+    height: 25px;
+  }
 }

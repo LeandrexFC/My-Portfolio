@@ -13,7 +13,9 @@ class Projects extends Component {
       <div>
       <Header />
       <Fade left>
+      <section className='projects'>  
       <h1 className='projectsTitle'> Projects. </h1>
+      </section>
       </Fade>
       <div className='projectsFooter'>
       <Footer />

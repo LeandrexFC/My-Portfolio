@@ -11,6 +11,10 @@
   padding: 5px;
 }
 
+#footerText {
+  font-size: 1.6rem;
+}
+
 #allFooterImg {
   display: flex;
   justify-content: flex-end;
@@ -19,19 +23,22 @@
 }
 
 .footerLinkedinImg{
-  width: 20px;
+  width: 100%;
+  max-width: 20px;
   height: 20px;
   margin-right: 15px;
 }
 
 .footerEmailImg {
-  width: 20px;
+  width: 100%;
+  max-width: 20px;
   height: 20px;
   margin-right: 15px;
 }
 
 .footerGitImg {
-  width: 20px;
+  width: 100%;
+  max-width: 20px;
   height: 20px;
   margin-right: 15px;
 }

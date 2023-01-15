@@ -8,7 +8,19 @@ class Header extends Component {
   render() {
     return (
       <Fade  top>
-      <header>
+        <header>
+          <div className='container'>
+            
+          </div>
+        </header>
+        <div className='headerr'>
+        <div className='menu-toggle '>
+          <div className='one'></div>
+          <div className='two'></div>
+          <div className='three'></div>
+        </div>
+        </div>
+      <nav className='header'>
         <Link className='lsLogo' to='/'>
         <img  className='lsLogo' src={ lsLogo } alt='lsLogo' />
         </Link>
@@ -16,7 +28,7 @@ class Header extends Component {
         <Link id='skills' to='/skills'> Skills </Link>
         <Link id='projects' to="/projects"> Portfolio </Link>
         <Link id='contact' to="/contact"> Contact </Link>
-      </header>
+      </nav>
       </Fade>
     )
   }
