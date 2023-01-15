@@ -8,6 +8,7 @@
 }
 
 #allContactText {
+  font-size: 30px;
   text-align: center;
   display: flex;
   color: white;
@@ -25,6 +26,7 @@
 }
 
 .contactImg {
+  margin-top: 10px;
   border-radius: 5px;
   /* box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22); */
   padding: 10px; 
@@ -35,16 +37,15 @@
 .contactImg:hover {
   transform: translateY(-10px);
   cursor: pointer;
+  opacity: 0.5;
 }
 
 .linkedinImg {
-  margin-top: 30px;
   width: 60px;
   height: 60px;
 }
 
 .emailImg {
-  margin-top: 30px;
   width: 60px;
   height: 60px;
 }

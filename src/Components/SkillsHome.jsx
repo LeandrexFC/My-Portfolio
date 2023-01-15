@@ -7,6 +7,7 @@ import jestLogo from '../images/jestLogo.png'
 import rtlLogo from '../images/rtlLogo.png'
 import gitLogo from '../images/gitLogo.png'
 import githubLogo from '../images/githubLogo.png'
+import reduxLogo from '../images/reduxLogo.png'
 import Fade from 'react-reveal/Fade';
 import '../AllCss/Skills2.css'
 
@@ -21,10 +22,11 @@ import '../AllCss/Skills2.css'
     showTextRtl: false,
     showTextGit: false,
     showTextGitHub: false,
+    showTextRedux: false,
   }
   render() {
     const { showText, showTextHTML, showTextCSS, showTextjs, showTextReact, showTextJest,
-      showTextRtl, showTextGit, showTextGitHub } = this.state;
+      showTextRtl, showTextGit, showTextGitHub, showTextRedux } = this.state;
     return (
       <>
         <Fade left>
@@ -63,27 +65,34 @@ import '../AllCss/Skills2.css'
             </div>
 
             <div className='card 5'
+               onMouseEnter={ () => this.setState({ showTextRedux: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextRedux: false, showText: true }) }>
+              <img className='skillsImgHome imgt' src={ reduxLogo }  alt='react Logo' />
+              <p>Redux</p>
+            </div>
+
+            <div className='card 6'
                onMouseEnter={ () => this.setState({ showTextJest: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextJest: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ jestLogo } alt='jest Logo' />
               <p>Jest</p>
             </div>
 
-            <div className='card 6'
+            <div className='card 7'
                onMouseEnter={ () => this.setState({ showTextRtl: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextRtl: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ rtlLogo } alt='rtl Logo' />
               <p>RTL</p>
             </div>
 
-            <div className='card 7'
+            <div className='card 8'
                 onMouseEnter={ () => this.setState({ showTextGit: true, showText: false }) }
                 onMouseLeave={ () => this.setState({ showTextGit: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ gitLogo } alt='git Logo' />
               <p>Git</p>
             </div>
 
-            <div className='card 8'
+            <div className='card 9'
                onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ githubLogo } alt='gitHub Logo' />
@@ -94,7 +103,7 @@ import '../AllCss/Skills2.css'
         <Fade left>
           <div className='skillsKnow'>
             {
-              showText && <p className='skillstexts'> Hover over a skill to learn more.</p>
+              showText && <p className='skillstexts'> Hover over the skill on the side to learn more.</p>
             }
                      
             {
@@ -111,6 +120,10 @@ import '../AllCss/Skills2.css'
 
             {
               showTextReact && <p className='skillstexts'> React is a JavaScript library for building user interfaces, specifically for building reusable UI components. </p>
+            }
+
+            {
+              showTextRedux && <p className='skillstexts'> Redux is a JavaScript library for managing application state. It uses a centralized store and follows the principles of immutability and unidirectional data flow to make it easier to understand and predict the behavior of an application. </p>
             }
 
             {

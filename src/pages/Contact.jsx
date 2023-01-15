@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import '../AllCss/Contact.css'
 import Header from '../Components/Header';
-import LinkedinLogo from '../images/LinkedinLogo.png'
-// import profilePic from '../images/profile-pic Linkedin.png'
-import emailLogo from '../images/emailLogo.png'
+import LinkedinLogo from '../images/LinkedinLogo3.png'
+import Typical from 'react-typical'
+import emailLogo from '../images/emailLogo4.png'
 import Footer from '../Components/Footer';
 import Fade from 'react-reveal/Fade';
 
 class Contact extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <>
@@ -18,9 +21,26 @@ class Contact extends Component {
           <h1 className='contactTitle'> Contact.</h1>
         </Fade>
         <Fade left>
-          <h1 className='contactText'>Hey,</h1>
-          <h2 className='contactText'>Would you like to talk to me for some reason?</h2>
-          <h2 h2 className='contactText'>You can text me here:</h2>
+        <p className='contactText'>
+          Hey, Ask me Anything!
+          <Typical 
+            loop={Infinity}
+            wrapper='p'
+            steps={[
+              'Want to tell me something?',
+              2000,
+              'Do you need help in something?',
+              2000,
+              'Want to talk about any idea?',
+              2000,
+              'Want to do something together?!',
+              2000,
+              'Is there anything you would like to share with me?',
+              2000,
+            ]}
+          />
+          </p>
+          <p className='contactTextHome'>You can text me here:</p>
         </Fade>
         <Fade left>
         <div id='allContactImg'>
@@ -37,11 +57,6 @@ class Contact extends Component {
         </div>   
         </Fade>  
         </div>
-        {/* <Fade left>
-        <div id='MyImg'>
-          <img id='contactProfilePic' src={ profilePic } alt='Leandro img' />
-        </div>
-        </Fade>  */}
       </section>
       <div className='contactFooter'>
       <Footer />

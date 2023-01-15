@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import GitHubLogo from '../images/githubLogo.png'
-import LinkedinLogo from '../images/LinkedinLogo.png'
-import emailLogo from '../images/emailLogo.png'
+import LinkedinLogo from '../images/LinkedinLogo3.png'
+import emailLogo from '../images/emailLogo4.png'
 import '../AllCss/Footer.css'
 
 class Footer extends Component {

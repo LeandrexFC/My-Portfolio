@@ -19,19 +19,23 @@
 }
 
 .footerLinkedinImg{
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
 }
 
 .footerEmailImg {
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
 }
 
 .footerGitImg {
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.footerLinkedinImg:hover, .footerEmailImg:hover, .footerGitImg:hover {
+  opacity: 0.5;
 }

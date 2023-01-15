@@ -7,6 +7,9 @@ import SkillsHome from '../Components/SkillsHome'
 import '../AllCss/Skills.css'
 
 class Skills extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>

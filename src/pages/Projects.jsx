@@ -5,6 +5,9 @@ import Fade from 'react-reveal/Fade';
 import Footer from '../Components/Footer';
 
 class Projects extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>
