@@ -196,7 +196,7 @@ body {
   }
 
   #profilePic {
-    width: 60%;
+    width: 40%;
     max-width: 220px;
     margin-bottom: 25px;
   }
@@ -207,7 +207,7 @@ body {
   }
 
   #pAboutHome {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     word-spacing: 2px;
     margin-left: 40px;
     margin-right: 40px;

@@ -29,7 +29,7 @@ class Home extends Component {
         <section className='welcome'>
           <Tada>
             <div className='welcomeText'>
-              <h1 className='text1'> Welcomee. </h1>
+              <h1 className='text1'> Welcome. </h1>
             </div>
           </Tada>
         <Fade left>
