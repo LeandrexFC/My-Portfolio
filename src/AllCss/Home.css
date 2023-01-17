@@ -112,7 +112,7 @@ body {
     margin-bottom: 130px;
     color: white;
     text-align: center;
-    font-size: 6rem;
+    font-size: 8rem;
   }
  
   #allContactImgHome {
@@ -165,7 +165,7 @@ body {
   margin-top: 30px;
   color: white;
   text-align: center;
-  font-size: 6rem;
+  font-size: 8rem;
 }
 
 .projectsHome {
@@ -185,6 +185,23 @@ body {
 @media (max-width: 571px) {
   html {
     font-size: 45%;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+
+  .aboutTextHome2 {
+    background-color: #09090b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+     height: 70vh; 
   }
 
   .text1 {
@@ -214,7 +231,7 @@ body {
   }
 
   .contactTitleHome {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .projectsTitleHome {
@@ -233,5 +250,4 @@ body {
   #allContactTextHome {
     font-size: 2.4rem;
   }
-
 }

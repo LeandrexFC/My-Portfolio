@@ -20,5 +20,6 @@
 @media (max-width: 571px) {
   .projectsTitle {
     font-size: 4rem;
+    margin-top: 150px;
   }
 }

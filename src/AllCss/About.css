@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  justify-content: center;
 }
 
 .aboutText {
@@ -25,7 +26,7 @@
 }
 
 #profilePicAbout {
-  width: 100%;
+  width: 90%;
   max-width: 200px;
   margin-bottom: 10px;
 }
@@ -44,6 +45,7 @@
 @media (max-width: 571px) {
   #aboutTitle {
     font-size: 4rem;
+    margin-top: 150px;
   }
   #pAbout {
     font-size: 1.4rem;
@@ -51,6 +53,7 @@
     margin-bottom: 20px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 60px;
   }
 
   #profilePicAbout {

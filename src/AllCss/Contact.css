@@ -4,7 +4,7 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  justify-content: flex-start
+  justify-content: center
 }
 
 #allContactText {
@@ -91,6 +91,7 @@
 @media (max-width: 571px) {
   .contactTitle {
     font-size: 4rem;
+    margin-top: 150px;
     /* margin-top: 2px; */
   }
 

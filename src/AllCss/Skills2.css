@@ -65,6 +65,10 @@
 }
 
 @media (max-width: 571px) {
+  /* .skill {
+    height: 10vh;
+  }   */
+
   .skill-content {
     display: flex;
     height: 100vh;
@@ -72,16 +76,9 @@
     align-items: center;
   }
   
-  
-  .skillTitleHome {
-    margin-top: 30px;
-    color: white;
-    text-align: center;
-    font-size: 5rem;
-  }
-  
+
   .skillsHome {
-    width: 70%;
+    width: 80%;
     /* max-width: 600px; */
     /* margin: auto; */
     display: grid;
