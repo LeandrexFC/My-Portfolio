@@ -8,11 +8,6 @@ class Header extends Component {
   render() {
     return (
       <Fade  top>
-        <header>
-          <div className='container'>
-            
-          </div>
-        </header>
         <div className='headerr'>
         <div className='menu-toggle '>
           <div className='one'></div>
