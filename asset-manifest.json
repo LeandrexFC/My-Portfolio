@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.18ef65c2.css",
-    "main.js": "/My-Portfolio/static/js/main.8636186b.js",
+    "main.css": "/My-Portfolio/static/css/main.209eb087.css",
+    "main.js": "/My-Portfolio/static/js/main.b67598ed.js",
     "static/media/profile-pic Linkedin.png": "/My-Portfolio/static/media/profile-pic Linkedin.dd1e04102c91164abbf9.png",
     "static/media/jestLogo.png": "/My-Portfolio/static/media/jestLogo.95bffbbd80a3ba10dfa4.png",
     "static/media/htmlLogo.png": "/My-Portfolio/static/media/htmlLogo.ff5e134c4ecfaecba2bc.png",
@@ -12,11 +12,11 @@
     "static/media/reactLogo.png": "/My-Portfolio/static/media/reactLogo.367a8df5ba9c7a95160e.png",
     "static/media/reduxLogo.png": "/My-Portfolio/static/media/reduxLogo.b3b939c66aecf7d53967.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.18ef65c2.css.map": "/My-Portfolio/static/css/main.18ef65c2.css.map",
-    "main.8636186b.js.map": "/My-Portfolio/static/js/main.8636186b.js.map"
+    "main.209eb087.css.map": "/My-Portfolio/static/css/main.209eb087.css.map",
+    "main.b67598ed.js.map": "/My-Portfolio/static/js/main.b67598ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.18ef65c2.css",
-    "static/js/main.8636186b.js"
+    "static/css/main.209eb087.css",
+    "static/js/main.b67598ed.js"
   ]
 }
