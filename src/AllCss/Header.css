@@ -53,6 +53,7 @@ header nav ul li a:hover {
         height: 5px;
         width: 100%;
         margin: 6px auto;
+        
 
         transition-duration: 0.3s;
     }
@@ -66,8 +67,8 @@ header nav ul li a:hover {
     .menu-section.on {
         position: absolute;
         top:0;
-        left:0;
-        
+        left: 0;
+        margin-left: -20px;
         width: 100vw;
         height: 30vh;
 
@@ -82,12 +83,14 @@ header nav ul li a:hover {
 
     .menu-section.on nav {
         display: block;
+        
     }
 
     .menu-section.on .menu-toggle {
         position: absolute;
         right: 25px;
         top: 15px;
+        
     }
 
     .menu-section.on .menu-toggle .one {
@@ -105,6 +108,7 @@ header nav ul li a:hover {
     .menu-section.on nav ul {
         text-align: center;
         display: block;
+        
     }
 
     .menu-section.on nav ul a{
@@ -112,6 +116,7 @@ header nav ul li a:hover {
         font-size: 3rem;
         line-height: 4rem;
         display: block;
+        
         
     }
 

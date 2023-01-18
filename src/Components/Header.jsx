@@ -5,7 +5,19 @@ import lsLogo from '../images/lsLogo.jpg'
 import { Fade } from 'react-reveal';
 
 class Header extends Component {
+  state = {
+    show: false
+  }
+
+  changeMenu = () => {
+    const { show } = this.state
+    this.setState({
+      show: !show 
+    })
+  }
+
   render() {
+    const { show } = this.state
     return (
       <header>
         <Fade  top>
@@ -13,12 +25,16 @@ class Header extends Component {
         <Link className='lsLogo' to='/'>
         <img  className='lsLogo' src={ lsLogo } alt='lsLogo' />
         </Link>
-            <div className='menu-section on'>
+
+        <Fade top>
+            <div className={ show ? 'menu-section on' : 'menu-section' }
+            onClick={this.changeMenu}>
               <div className='menu-toggle '>
                 <div className='one'></div>
                 <div className='two'></div>
                 <div className='three'></div>
               </div>
+              
               <nav>
                 <ul>
                   <li>
@@ -37,6 +53,7 @@ class Header extends Component {
                 
               </nav>
             </div>
+            </Fade>
           </div>
         </Fade>
         </header>
