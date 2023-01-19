@@ -28,7 +28,7 @@ body {
 
 .text1 {
   color: white;
-  font-size: 10.2rem;
+  font-size: 13.2rem;
   transition: all 0.3s ease-out;
 }
 
@@ -176,15 +176,22 @@ body {
   align-items: flex-start;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   html {
     font-size: 50%;
   }
+} */
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 70%;
+  }
 }
 
-@media (max-width: 571px) {
+
+@media (max-width: 820px) {
   html {
-    font-size: 45%;
+    font-size: 50%;
   }
 
   .welcome {
@@ -250,4 +257,15 @@ body {
   #allContactTextHome {
     font-size: 2.4rem;
   }
+
+  .projectsHome { 
+    height: 70vh;
+  }
 }
+
+@media (max-width: 320px) {
+  html {
+    font-size: 40%;
+  }
+}
+

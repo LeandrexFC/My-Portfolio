@@ -64,10 +64,16 @@
   font-size: 2rem;
 }
 
-@media (max-width: 571px) {
+@media (max-width: 820px) {
   /* .skill {
     height: 10vh;
   }   */
+
+  .skillTitleHome {
+    color: white;
+    text-align: center;
+    font-size: 8rem;
+  }
 
   .skill-content {
     display: flex;

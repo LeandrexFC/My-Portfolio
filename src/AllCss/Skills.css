@@ -20,19 +20,20 @@
 
 .skillsFooter {
   background-color: #DCDCDC;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   display: flex;
 }
 
-@media (max-width: 571px) {
+@media (max-width: 820px) {
   .skill {
-    height: 70vh;
+     height: 700px;
+    /* margin-top: 100px; */
   }
 
   .skillTitle {
-    margin-top: 150px;
-    font-size: 5rem;
+    margin-top: 250px;
+    font-size: 7rem;
   }
 }

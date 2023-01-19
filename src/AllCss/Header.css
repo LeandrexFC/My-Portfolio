@@ -40,11 +40,10 @@ header nav ul li a:hover {
   opacity: 0.5;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 820px) {
  nav {
         display: none;
     }
-
 
     .one,
     .two,
@@ -74,7 +73,7 @@ header nav ul li a:hover {
 
         background-color: #87CEFA;
         
-         z-index: 1 !important;  
+         z-index: 10 !important;  
 
         display: flex;
         justify-content: center;

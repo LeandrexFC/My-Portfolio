@@ -5,21 +5,21 @@
 .projectsTitle {
   color: white;
   margin-top: 100px;
-  font-size: 10rem;
+  font-size: 8rem;
   text-align: center;
 }
 
 .projectsFooter {
   background-color: #DCDCDC;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   display: flex;
 }
 
-@media (max-width: 571px) {
+@media (max-width: 820px) {
   .projectsTitle {
-    font-size: 4rem;
-    margin-top: 150px;
+    font-size: 7rem;
+    margin-top: 300px;
   }
 }
