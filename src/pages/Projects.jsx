@@ -3,6 +3,7 @@ import '../AllCss/Projects.css'
 import Header from '../Components/Header';
 import Fade from 'react-reveal/Fade';
 import Footer from '../Components/Footer';
+import ProjectsComponent from '../Components/ProjectsComponent';
 
 class Projects extends Component {
   componentDidMount() {
@@ -15,6 +16,9 @@ class Projects extends Component {
       <Fade left>
       <section className='projects'>  
       <h1 className='projectsTitle'> Projects. </h1>
+      <div>
+        <ProjectsComponent />
+      </div>
       </section>
       </Fade>
       <div className='projectsFooter'>
