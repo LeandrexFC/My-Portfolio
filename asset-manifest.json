@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.33064781.css",
-    "main.js": "/My-Portfolio/static/js/main.58207648.js",
+    "main.css": "/My-Portfolio/static/css/main.199bf213.css",
+    "main.js": "/My-Portfolio/static/js/main.5ed99a91.js",
     "static/media/profile-pic Linkedin.png": "/My-Portfolio/static/media/profile-pic Linkedin.dd1e04102c91164abbf9.png",
     "static/media/jestLogo.png": "/My-Portfolio/static/media/jestLogo.95bffbbd80a3ba10dfa4.png",
+    "static/media/trybetunes.png": "/My-Portfolio/static/media/trybetunes.a5a54047a9a97e506267.png",
     "static/media/htmlLogo.png": "/My-Portfolio/static/media/htmlLogo.ff5e134c4ecfaecba2bc.png",
     "static/media/javascriptLogo.png": "/My-Portfolio/static/media/javascriptLogo.fd668b084a25f663bf42.png",
     "static/media/githubLogo.png": "/My-Portfolio/static/media/githubLogo.dea49d48a3e47344edfe.png",
@@ -12,11 +13,11 @@
     "static/media/reactLogo.png": "/My-Portfolio/static/media/reactLogo.367a8df5ba9c7a95160e.png",
     "static/media/reduxLogo.png": "/My-Portfolio/static/media/reduxLogo.b3b939c66aecf7d53967.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.33064781.css.map": "/My-Portfolio/static/css/main.33064781.css.map",
-    "main.58207648.js.map": "/My-Portfolio/static/js/main.58207648.js.map"
+    "main.199bf213.css.map": "/My-Portfolio/static/css/main.199bf213.css.map",
+    "main.5ed99a91.js.map": "/My-Portfolio/static/js/main.5ed99a91.js.map"
   },
   "entrypoints": [
-    "static/css/main.33064781.css",
-    "static/js/main.58207648.js"
+    "static/css/main.199bf213.css",
+    "static/js/main.5ed99a91.js"
   ]
 }
