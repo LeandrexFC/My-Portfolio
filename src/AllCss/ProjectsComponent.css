@@ -22,6 +22,11 @@
   height: 90%;
 }
 
+.imgsCard {
+  display: flex;
+
+}
+
 .cards {
   display: flex;
   border-radius: 5px;
@@ -30,7 +35,7 @@
   height: 300px;
   max-width: 400px;
   margin-bottom: 20px;
-  background-color: white;
+  /* background-color: white; */
   margin-left: 60px;
   transition: 0.6s;
   justify-content: center;
@@ -42,7 +47,36 @@
   box-shadow: 0px 1px 4px 6px #87CEFA;
 }
 
-.cardP {
-  color: black;
-  font-size: 2rem;
-} 
+.cardLogo {
+  width: 100%;
+  max-width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.pCard {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3px;
+  align-items: center;
+}
+
+.cardfir {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.pCard {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.soon {
+  font-size: 90px;
+  transform: rotate(-45deg);
+  color: white;
+}
+
+/* .soon:hover {
+  color: white;
+} */

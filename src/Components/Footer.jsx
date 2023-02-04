@@ -22,6 +22,7 @@ class Footer extends Component {
         <a href='https://github.com/LeandrexFC' target='_blank' rel="noreferrer">
         <img src={ GitHubLogo } alt='GitHub Logo' className='footerGitImg'></img> 
         </a>
+        {/* <a href="https://br.freepik.com/vetores-gratis/estudo-de-menino-bonito-com-ilustracao-de-icone-de-desenho-animado-portatil-conceito-de-icone-de-tecnologia-de-educacao-isolado-estilo-flat-cartoon_10718009.htm#from_view=detail_alsolike">Imagem de catalyststuff</a> no Freepik */}
         </div>
 
       </footer>

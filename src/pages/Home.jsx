@@ -11,6 +11,7 @@ import Tada from 'react-reveal/Tada';
 import Typing from 'react-typing-animation';
 import Typical from 'react-typical'
 import SkillsHome from '../Components/SkillsHome';
+import programmerImg from '../images/programmerLogo.png'
 
 class Home extends Component {
   componentDidMount() {
@@ -26,23 +27,21 @@ class Home extends Component {
     return (
       <div>
         <Header />
-        <section className='welcome'>
+          <section className='welcome'>
+            <div className='welcomeImg'>
+              <img src={ programmerImg } alt='Programmer Draw'  className='imgWelcome'/>
+            </div>
           <Tada>
             <div className='welcomeText'>
               <h1 className='text1'> Welcome. </h1>
+               <Typing speed={50}>
+                  <p className='textp'> 
+                    My name is Leandro Sousa, I'm a Web developer from São Paulo, BR, <br/> 
+                    And I'm Loving the Developer World. </p>
+               </Typing>
+                  <button className='btn-home' type='button' onClick={ this.redirectToProjects }> PORTFOLIO </button>
             </div>
           </Tada>
-        <Fade left>
-            <Typing speed={50}>
-            <div className='welcomeP'>
-              <p className='textp'> 
-              My name is Leandro Sousa, I'm a Web developer from São Paulo, BR, And I'm Loving the Developer World. 
-              </p>
-            </div>
-            </Typing>
-            <button className='btn-home' type='button' onClick={ this.redirectToProjects }> PORTFOLIO </button>
-            {/* </div> */}
-        </Fade>
         </section>
 
         <section className='aboutTextHome2' >
