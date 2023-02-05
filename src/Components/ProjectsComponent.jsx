@@ -33,7 +33,7 @@ class ProjectsComponent extends Component {
           <img className='cardsImg' src={ moneyImg } alt='trybetunes project' />
         </div>
         <div className='pCard'>
-        <p className='cardfir'> Cash-O-Change </p>
+        <p className='cardfir'> MONEY-O-Change </p>
         <p className='cardsec'>React, React Router Dom, CSS, API request, Redux. </p>
         </div>
         <div className='imgsCard'>
