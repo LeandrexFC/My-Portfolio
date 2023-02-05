@@ -13,7 +13,7 @@ In my portfolio, I have used the following technologies:
 <ul>
 <li> ReactJs</li>
 <li> HTML</li>
-<li>CSS </li>
+<li>CSS responsive </li>
 <li>JavaScript </li>
 <li>React Typyng </li>
 <li>React Reveal </li>
