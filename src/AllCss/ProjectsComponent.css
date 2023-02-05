@@ -12,11 +12,12 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  background-color: #87CEFA;
+  background-color: black;
   width: 100%;
   max-width: 400px;
   height: 400px;
 }
+
 
 .cardsImg {
   width: 90%;
@@ -79,6 +80,7 @@
   color: white;
 
 }
+
 
 @media (max-width: 1134px) {
   .allProjects {
@@ -162,7 +164,7 @@
     border-radius: 5px;
     padding: 10px;
     width: 490px;
-    height: 290px;
+    height: 200px;
   }
 
 

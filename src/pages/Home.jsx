@@ -29,10 +29,10 @@ class Home extends Component {
       <div>
         <Header />
           <section className='welcome'>
+          <Tada>
             <div className='welcomeImg'>
               <img src={ programmerImg } alt='Programmer Draw'  className='imgWelcome'/>
             </div>
-          <Tada>
             <div className='welcomeText'>
               <h1 className='text1'> Welcome. </h1>
                <Typing speed={50}>
@@ -66,8 +66,11 @@ class Home extends Component {
         <SkillsHome />
         </Fade>
 
-        <h1 className='projectsTitleHome'> Projects. </h1>
       <section className='projectsHome'>
+        <Fade left>
+        <h1 className='projectsTitleHome'> Projects. </h1>
+        </Fade>
+        <p className='pProjects'> * Some projects may not work optimally on some mobile devices, I'm working to improve it. * </p>
         <Fade left>  
         <ProjectsComponent />
         </Fade>

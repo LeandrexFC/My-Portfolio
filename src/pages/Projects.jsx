@@ -15,12 +15,13 @@ class Projects extends Component {
       <Header />
       <Fade left>
       <section className='projects'>  
-      <h1 className='projectsTitle'> Projects. </h1>
+      <h1 className='projectsTitle'> PORTFOLIO. </h1>
       <div>
         <ProjectsComponent />
       </div>
       </section>
       </Fade>
+      <p className='pProjects'> * Some projects may not work optimally on some mobile devices, I'm working to improve it. * </p>
       <div className='projectsFooter'>
       <Footer />
       </div>

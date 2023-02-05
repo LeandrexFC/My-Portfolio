@@ -123,7 +123,7 @@ body {
   }
 
   .contactTitleHome {
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 130px;
     color: white;
     text-align: center;
@@ -181,15 +181,20 @@ body {
   color: white;
   text-align: center;
   font-size: 8rem;
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
 }
 
 .projectsHome {
   display: flex;
-  background-color: #09090b; 
-  height: 130vh;
+  background-color: #09090b;
+  height: 150vh;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pProjects {
+  margin-bottom: 10vh;
 }
 
 @media (min-width: 1940px) {
@@ -325,6 +330,20 @@ body {
   .projectsHome { 
     height: 190vh;
   }
+
+  .contactTitleHome {
+    margin-top: 150px;
+  }
+
+  .projectsHome {
+    display: flex;
+    background-color: #09090b;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
 } 
 
 @media (max-width: 330px) {
@@ -345,4 +364,3 @@ body {
   }
 
 }
-
