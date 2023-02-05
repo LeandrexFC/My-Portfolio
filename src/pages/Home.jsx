@@ -13,6 +13,9 @@ import Typical from 'react-typical'
 import SkillsHome from '../Components/SkillsHome';
 import programmerImg from '../images/programmerLogo.png'
 import ProjectsComponent from '../Components/ProjectsComponent';
+import { Helmet } from "react-helmet";
+import lsLogo from '../images/lsLogo.jpg'
+
 
 class Home extends Component {
   componentDidMount() {
@@ -27,6 +30,10 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Leandro Sousa - Full Stack Student</title>
+          <link rel="icon" href={ lsLogo } />
+      </Helmet>
         <Header />
           <section className='welcome'>
           <Tada>
