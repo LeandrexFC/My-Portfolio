@@ -4,12 +4,12 @@ import tututunes from '../images/TU-TU-TUNES.png'
 import moneyImg from '../images/Money-O-Change.png'
 import GitHubLogo from '../images/githubLogo.png'
 import browser from '../images/browser.png'
+import Typical from 'react-typical'
 
 class ProjectsComponent extends Component {
   render() {
   return (
     <div className='allProjects'>
-
       <div className='cards 1'>
         <div className='imgItem'>
           <img className='cardsImg' src={ tututunes } alt='trybetunes project' />
@@ -48,11 +48,33 @@ class ProjectsComponent extends Component {
       
 
       <div className='cards 3'>
-        <h1 className='soon'> SOON  </h1>
+      <p className='soon'>
+          <Typical 
+            loop={Infinity}
+            wrapper='p'
+            steps={[
+              'SOON',
+              1000,
+              'SOON...',
+              1000,
+            ]}
+          />
+          </p>
       </div>
 
       <div className='cards 4'>
-        <h1 className='soon'> SOON  </h1>
+      <p className='soon'>
+          <Typical 
+            loop={Infinity}
+            wrapper='p'
+            steps={[
+              'SOON',
+              1000,
+              'SOON...',
+              1000,
+            ]}
+          />
+          </p>
       </div>
       
     </div>

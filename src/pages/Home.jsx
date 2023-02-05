@@ -12,6 +12,7 @@ import Typing from 'react-typing-animation';
 import Typical from 'react-typical'
 import SkillsHome from '../Components/SkillsHome';
 import programmerImg from '../images/programmerLogo.png'
+import ProjectsComponent from '../Components/ProjectsComponent';
 
 class Home extends Component {
   componentDidMount() {
@@ -65,9 +66,10 @@ class Home extends Component {
         <SkillsHome />
         </Fade>
 
+        <h1 className='projectsTitleHome'> Projects. </h1>
       <section className='projectsHome'>
         <Fade left>  
-        <h1 className='projectsTitleHome'> Projects. </h1>
+        <ProjectsComponent />
         </Fade>
       </section>
 

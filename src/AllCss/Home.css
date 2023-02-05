@@ -181,12 +181,13 @@ body {
   color: white;
   text-align: center;
   font-size: 8rem;
+  margin-bottom: 10vh;
 }
 
 .projectsHome {
   display: flex;
   background-color: #09090b; 
-  height: 100vh;
+  height: 130vh;
   justify-content: center;
   align-items: flex-start;
 }
@@ -305,7 +306,7 @@ body {
   }
 
   .projectsHome { 
-    height: 70vh;
+    height: 90vh;
   }
 }
 
@@ -321,9 +322,12 @@ body {
     max-height: 230px;
     margin-right: 0vh;
   }
+  .projectsHome { 
+    height: 190vh;
+  }
 } 
 
-@media (max-width: 320px) {
+@media (max-width: 330px) {
   html {
     font-size: 40%;
   }
@@ -334,6 +338,10 @@ body {
     max-width: 200px;
     max-height: 200px;
     margin-right: 0vh;
+  }
+
+  .projectsHome { 
+    height: 140vh;
   }
 
 }
