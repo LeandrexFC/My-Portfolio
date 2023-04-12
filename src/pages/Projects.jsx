@@ -19,9 +19,9 @@ class Projects extends Component {
       <div>
         <ProjectsComponent />
       </div>
+      <p className='pProjects'> * Some projects may not work optimally on some mobile devices, I'm working to improve it. * </p>
       </section>
       </Fade>
-      <p className='pProjects'> * Some projects may not work optimally on some mobile devices, I'm working to improve it. * </p>
       <div className='projectsFooter'>
       <Footer />
       </div>
