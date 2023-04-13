@@ -13,7 +13,7 @@
 .imgt {
   display: flex;
   width: 90%; 
-  max-width: 85px;
+  max-width: 65px;
   justify-content: center;
   align-items: center;
 }

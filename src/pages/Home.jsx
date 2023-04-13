@@ -70,7 +70,9 @@ class Home extends Component {
         </section>
 
         <Fade left>
+          <section className='skillshomee'>
         <SkillsHome />
+          </section>
         </Fade>
 
       <section className='projectsHome'>

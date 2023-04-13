@@ -12,7 +12,11 @@ body {
   height: 100vh;
   background-color: #040405;
   font-family: 'Bebas Neue';
-} 
+}
+
+.skillshomee {
+  height: 180vh;
+}
 
 .imgDiv {
   margin-top: 30px;

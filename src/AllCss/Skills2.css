@@ -5,42 +5,63 @@
   align-items: center;
 }
 
-
 .skillTitleHome {
   margin-top: 30px;
+  margin-bottom: 5%;
   color: white;
   text-align: center;
   font-size: 8rem;
 }
 
-.skillsHome {
-  width: 100%;
-  max-width: 600px;
-  /* margin: auto; */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  /* grid-template-columns: 1fr 1fr 1fr; */
+.frontTitle {
+  text-align: center;
   align-items: center;
-  grid-gap: 20px  
+  font-size: 6rem;
+  color: white;
+}
+
+.classSkillsTItle {
+  margin: auto;
+  width: 65%;
+  /* height: 65%; */
+  /* border: solid 5px blue; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.skillsHome {
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  align-items: center;
+  grid-gap: 10px;
+  /* border: solid 5px blue; */
 }
 
 .skillsImgHome {
   display: flex;
   width: 100%; 
-  max-width: 95px;
+  max-width: 60px;
   justify-content: center;
   align-items: center;
 }
+
 
 .card {
   border-radius: 5px;
   box-shadow: 7px 7px 13px 0 #87CEFA;
   padding: 10px;
   width: 100%; 
-  max-width: 150px; 
+  max-width: 100px; 
   transition: all 0.3s ease-out;
   margin-bottom: 20px;
 }
+
+.b14:last-child {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
 
 .card:hover {
   transform: translateY(-10px);
@@ -55,6 +76,7 @@
 }
 
 .skillsKnow {
+  margin: auto;
   color: white;
   width: 100%;
   max-width: 300px;
@@ -62,6 +84,7 @@
 
  .skillstexts {
   font-size: 2rem;
+  margin-top: -50%;
 }
 
 @media (max-width: 980px) {
@@ -84,14 +107,11 @@
   
 
   .skillsHome {
-    width: 80%;
-    /* max-width: 600px; */
-    /* margin: auto; */
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, minmax(10px, 2fr));
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
     align-items: center;
-     grid-gap: 30px
+    grid-gap: 5px;  
   }
   
   .skillsImgHome {
@@ -110,6 +130,7 @@
     max-width: 150px; 
     transition: all 0.3s ease-out;
     margin-bottom: 20px;
+
   }
   
   .card:hover {

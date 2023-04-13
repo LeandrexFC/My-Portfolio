@@ -5,9 +5,16 @@ import jsLogo from '../images/javascriptLogo.png'
 import reactLogo from '../images/reactLogo.png'
 import jestLogo from '../images/jestLogo.png'
 import rtlLogo from '../images/rtlLogo.png'
-import gitLogo from '../images/gitLogo.png'
-import githubLogo from '../images/githubLogo.png'
+// import gitLogo from '../images/gitLogo.png'
+// import githubLogo from '../images/githubLogo.png'
 import reduxLogo from '../images/reduxLogo.png'
+import mochaLogo from '../images/mocha.png'
+import sinon from '../images/sinon.png'
+import chai from '../images/chai.png'
+import docker from '../images/docker.png'
+import sql from '../images/sql.png'
+import node from '../images/node.png'
+import sequelize from '../images/sequelize.png'
 import Fade from 'react-reveal/Fade';
 import '../AllCss/Skills2.css'
 
@@ -31,7 +38,12 @@ import '../AllCss/Skills2.css'
       <>
         <Fade left>
           <h1 className='skillTitleHome skillTitle'>Skills.</h1>
-        </Fade>
+        
+          <div className='classSkillsTItle'>
+            <h2 className='frontTitle'>Front-End</h2>
+            <h2 className='frontTitle'>Back-End</h2>
+          </div>
+          </Fade>
         <div className='skill-content skill'>
         <Fade left>
           <div className='skillsHome'>
@@ -84,23 +96,60 @@ import '../AllCss/Skills2.css'
               <img className='skillsImgHome imgt' src={ rtlLogo } alt='rtl Logo' />
               <p>RTL</p>
             </div>
-
+            </div>
+            <div className='skillsHome'>
             <div className='card 8'
                 onMouseEnter={ () => this.setState({ showTextGit: true, showText: false }) }
                 onMouseLeave={ () => this.setState({ showTextGit: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ gitLogo } alt='git Logo' />
-              <p>Git</p>
+              <img className='skillsImgHome imgt' src={ mochaLogo } alt='mocha Logo' />
+              <p>Mocha</p>
             </div>
 
             <div className='card 9'
                onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ githubLogo } alt='gitHub Logo' />
-              <p>GitHub</p>
+              <img className='skillsImgHome imgt' src={ chai } alt='chai Logo' />
+              <p>Chai</p>
             </div>
-          </div>
+
+            <div className='card 10'
+               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+              <img className='skillsImgHome imgt' src={ sinon } alt='sinon Logo' />
+              <p>Sinon</p>
+            </div>
+
+            <div className='card 11'
+               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+              <img className='skillsImgHome imgt' src={ node } alt='node Logo' />
+              <p>Node</p>
+            </div>
+
+            <div className='card 12'
+               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+              <img className='skillsImgHome imgt' src={ docker } alt='docker Logo' />
+              <p>Docker</p>
+            </div>
+
+            <div className='card 13'
+               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+              <img className='skillsImgHome imgt' src={ sql } alt='sql Logo' />
+              <p>MySQL</p>
+            </div>
+
+            <div className='card b14'
+               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+              <img className='skillsImgHome imgt' src={ sequelize } alt='sequelize Logo' />
+              <p>Sequelize</p>
+            </div>
+            </div>
         </Fade>
-        <Fade left>
+            </div>
+        { <Fade left>
           <div className='skillsKnow'>
             {
               showText && <p className='skillstexts'> Hover over the skill on the side to learn more.</p>
@@ -142,8 +191,8 @@ import '../AllCss/Skills2.css'
               showTextGitHub && <p className='skillstexts'> GitHub is a web-based platform that provides hosting for software development and a community platform for developers to collaborate, share and learn together. </p>
             }
           </div>
-          </Fade>
-        </div>
+          </Fade> }
+        
           </>
     )
   }
