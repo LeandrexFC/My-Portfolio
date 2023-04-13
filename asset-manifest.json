@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d2f69433.css",
-    "main.js": "/static/js/main.ac3e1613.js",
+    "main.js": "/static/js/main.8a3accd1.js",
     "static/media/Money-O-Change.png": "/static/media/Money-O-Change.c214d60a53373e97b58b.png",
     "static/media/profile-pic Linkedin.png": "/static/media/profile-pic Linkedin.dd1e04102c91164abbf9.png",
     "static/media/jestLogo.png": "/static/media/jestLogo.95bffbbd80a3ba10dfa4.png",
@@ -21,10 +21,10 @@
     "static/media/reduxLogo.png": "/static/media/reduxLogo.b3b939c66aecf7d53967.png",
     "index.html": "/index.html",
     "main.d2f69433.css.map": "/static/css/main.d2f69433.css.map",
-    "main.ac3e1613.js.map": "/static/js/main.ac3e1613.js.map"
+    "main.8a3accd1.js.map": "/static/js/main.8a3accd1.js.map"
   },
   "entrypoints": [
     "static/css/main.d2f69433.css",
-    "static/js/main.ac3e1613.js"
+    "static/js/main.8a3accd1.js"
   ]
 }
