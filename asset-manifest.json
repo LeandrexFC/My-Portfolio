@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.56c6a680.css",
-    "main.js": "/static/js/main.4399568f.js",
+    "main.css": "/static/css/main.5fec765f.css",
+    "main.js": "/static/js/main.2d360db6.js",
+    "static/media/neymar5.jpg": "/static/media/neymar5.1d8b6579967e8a319e85.jpg",
     "static/media/Money-O-Change.png": "/static/media/Money-O-Change.c214d60a53373e97b58b.png",
     "static/media/profile-pic Linkedin.png": "/static/media/profile-pic Linkedin.dd1e04102c91164abbf9.png",
     "static/media/jestLogo.png": "/static/media/jestLogo.95bffbbd80a3ba10dfa4.png",
@@ -14,18 +15,17 @@
     "static/media/browser.png": "/static/media/browser.73f1ed83bf8e9b3d352d.png",
     "static/media/sinon.png": "/static/media/sinon.c0ca3204b2956deda0cb.png",
     "static/media/chai.png": "/static/media/chai.3002f262334250cac298.png",
-    "static/media/neymar.jpeg": "/static/media/neymar.fc3fa006eee0b0ae904b.jpeg",
     "static/media/cssLogo.png": "/static/media/cssLogo.bc75ccc78e3bf74f8aed.png",
     "static/media/docker.png": "/static/media/docker.900e4877d5954f413357.png",
     "static/media/node.png": "/static/media/node.f972682b47d48845a5b8.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.367a8df5ba9c7a95160e.png",
     "static/media/reduxLogo.png": "/static/media/reduxLogo.b3b939c66aecf7d53967.png",
     "index.html": "/index.html",
-    "main.56c6a680.css.map": "/static/css/main.56c6a680.css.map",
-    "main.4399568f.js.map": "/static/js/main.4399568f.js.map"
+    "main.5fec765f.css.map": "/static/css/main.5fec765f.css.map",
+    "main.2d360db6.js.map": "/static/js/main.2d360db6.js.map"
   },
   "entrypoints": [
-    "static/css/main.56c6a680.css",
-    "static/js/main.4399568f.js"
+    "static/css/main.5fec765f.css",
+    "static/js/main.2d360db6.js"
   ]
 }
