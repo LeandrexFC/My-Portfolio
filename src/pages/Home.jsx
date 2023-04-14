@@ -41,7 +41,7 @@ class Home extends Component {
               <img src={ programmerImg } alt='Programmer Draw'  className='imgWelcome'/>
             </div>
             <div className='welcomeText'>
-              <h1 className='text1'> Welcome. </h1>
+              <h1 className='text1'> Welcomedsadsa. </h1>
                <Typing speed={50}>
                   <p className='textp'> 
                     My name is Leandro Sousa, I'm a Web developer from São Paulo, BR, <br/> 
