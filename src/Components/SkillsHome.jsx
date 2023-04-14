@@ -5,8 +5,6 @@ import jsLogo from '../images/javascriptLogo.png'
 import reactLogo from '../images/reactLogo.png'
 import jestLogo from '../images/jestLogo.png'
 import rtlLogo from '../images/rtlLogo.png'
-// import gitLogo from '../images/gitLogo.png'
-// import githubLogo from '../images/githubLogo.png'
 import reduxLogo from '../images/reduxLogo.png'
 import mochaLogo from '../images/mocha.png'
 import sinon from '../images/sinon.png'
@@ -30,10 +28,18 @@ import '../AllCss/Skills2.css'
     showTextGit: false,
     showTextGitHub: false,
     showTextRedux: false,
+    showTextMocha: false,
+    showTextChai: false,
+    showTextSinon: false,
+    showTextNode: false,
+    showTextDocker: false,
+    showTextMysql: false,
+    showTextSequelize: false, 
   }
   render() {
     const { showText, showTextHTML, showTextCSS, showTextjs, showTextReact, showTextJest,
-      showTextRtl, showTextGit, showTextGitHub, showTextRedux } = this.state;
+      showTextRtl, showTextGit, showTextGitHub, showTextRedux, showTextMocha,
+      showTextChai, showTextSinon, showTextNode, showTextDocker, showTextMysql, showTextSequelize } = this.state;
     return (
       <>
         <Fade left>
@@ -99,50 +105,50 @@ import '../AllCss/Skills2.css'
             </div>
             <div className='skillsHome'>
             <div className='card 8'
-                onMouseEnter={ () => this.setState({ showTextGit: true, showText: false }) }
-                onMouseLeave={ () => this.setState({ showTextGit: false, showText: true }) }>
+                onMouseEnter={ () => this.setState({ showTextMocha: true, showText: false }) }
+                onMouseLeave={ () => this.setState({ showTextMocha: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ mochaLogo } alt='mocha Logo' />
               <p>Mocha</p>
             </div>
 
             <div className='card 9'
-               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+               onMouseEnter={ () => this.setState({ showTextChai: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextChai: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ chai } alt='chai Logo' />
               <p>Chai</p>
             </div>
 
             <div className='card 10'
-               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+               onMouseEnter={ () => this.setState({ showTextSinon: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextSinon: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ sinon } alt='sinon Logo' />
               <p>Sinon</p>
             </div>
 
             <div className='card 11'
-               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+               onMouseEnter={ () => this.setState({ showTextNode: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextNode: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ node } alt='node Logo' />
               <p>Node</p>
             </div>
 
             <div className='card 12'
-               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+               onMouseEnter={ () => this.setState({ showTextDocker: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextDocker: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ docker } alt='docker Logo' />
               <p>Docker</p>
             </div>
 
             <div className='card 13'
-               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+               onMouseEnter={ () => this.setState({ showTextMysql: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextMysql: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ sql } alt='sql Logo' />
               <p>MySQL</p>
             </div>
 
             <div className='card b14'
-               onMouseEnter={ () => this.setState({ showTextGitHub: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextGitHub: false, showText: true }) }>
+               onMouseEnter={ () => this.setState({ showTextSequelize: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextSequelize: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ sequelize } alt='sequelize Logo' />
               <p>Sequelize</p>
             </div>
@@ -184,11 +190,31 @@ import '../AllCss/Skills2.css'
             }
 
             {
-              showTextGit && <p className='skillstexts'> Git is a distributed version control system (DVCS) that is widely used for software development. It allows multiple people to collaborate on the same codebase, track changes, and maintain different versions of the code. </p>
+              showTextMocha && <p className='skillstexts'> Mocha is a feature-rich JavaScript testing framework that runs on Node.js and in the browser. It provides a flexible and powerful API for writing test suites and supports a variety of testing styles, including BDD, TDD, and QUnit-style.  </p>
             }
 
             {
-              showTextGitHub && <p className='skillstexts'> GitHub is a web-based platform that provides hosting for software development and a community platform for developers to collaborate, share and learn together. </p>
+              showTextChai && <p className='skillstexts'> Chai is an assertion library for Node.js and the browser that provides a variety of assertion styles for testing JavaScript code. It supports both BDD and TDD assertion styles and provides a fluent, expressive API for creating assertions. </p>
+            }
+
+            {
+              showTextSinon && <p className='skillstexts'> Sinon is a JavaScript testing library for Node.js and the browser that provides several utilities for creating and managing test doubles (i.e. mock objects, stubs, and spies). </p>
+            }
+
+            {
+              showTextNode && <p className='skillstexts'> Node.js is an open-source, cross-platform, JavaScript runtime environment that allows developers to build server-side applications using JavaScript. </p>
+            }
+
+            {
+              showTextDocker && <p className='skillstexts'> Docker is an open-source platform for building, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient environments that can run on any machine, making them an ideal choice for modern software development and deployment.  </p>
+            }
+
+            {
+              showTextMysql && <p className='skillstexts'> MySQL is an open-source relational database management system that uses SQL (Structured Query Language) to manage and manipulate data. </p>
+            }
+
+            {
+              showTextSequelize && <p className='skillstexts'> Sequelize is an Object-Relational Mapping (ORM) library for Node.js that provides a simple yet powerful way to interact with relational databases such as MySQL, PostgreSQL, and SQLite. </p>
             }
           </div>
           </Fade> }

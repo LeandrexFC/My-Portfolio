@@ -59,7 +59,7 @@
 
 .b14:last-child {
   grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-end: 3;
 }
 
 
@@ -77,6 +77,7 @@
 
 .skillsKnow {
   margin: auto;
+  height: 300px;
   color: white;
   width: 100%;
   max-width: 300px;
@@ -85,6 +86,7 @@
  .skillstexts {
   font-size: 2rem;
   margin-top: -40%;
+  /* margin-bottom: 200px; */
 }
 
 @media (max-width: 980px) {
@@ -104,13 +106,12 @@
   
 
   .skillsHome {
-    margin-left: 3%;
-    margin-right: -3%;
-    width: 100%;
+    width: 30%;
     display: grid;
-    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
     align-items: center;
-    grid-gap: 3px;  
+    grid-gap: 10px;
+    /* border: solid 5px blue; */
   }
   
   .skillsImgHome {
@@ -139,6 +140,62 @@
 
   .skillsKnow {
     display: none;
+  }
+
+  @media (max-width: 750px) {
+    .card {
+      border-radius: 5px;
+      box-shadow: 7px 7px 13px 0 #87CEFA;
+      padding: 10px;
+      width: 100%; 
+      max-width: 80px; 
+      transition: all 0.3s ease-out;
+      margin-bottom: 10px;
+    }
+
+    .skillTitleHome {
+      margin-top: 30px;
+      margin-bottom: 5%;
+      color: white;
+      text-align: center;
+      font-size: 6rem;
+    }
+    
+    .frontTitle {
+      text-align: center;
+      align-items: center;
+      font-size: 4rem;
+      color: white;
+    }
+
+    .skillsHome {
+      width: 30%;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(100px, 1fr));
+      align-items: center;
+      grid-gap: 10px;
+      /* border: solid 5px blue; */
+    }
+    .b14:last-child {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .skillsHome {
+      margin-top: 15%;
+      width: 30%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      align-items: center;
+      grid-gap: 10px;
+      /* border: solid 5px blue; */
+    }
+    .b14:last-child {
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
   }
 
 }

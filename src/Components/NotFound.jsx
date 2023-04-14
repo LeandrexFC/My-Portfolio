@@ -1,12 +1,23 @@
 import React from "react";
+import '../AllCss/NotFound.css'
+import neymarImg from '../images/neymar.jpeg'
+import Header from '../Components/Header'
+
 
 function NotFound() {
   return (
-    <div>
-      <h1>Erro 404 - Página não encontrada</h1>
-      <p>Desculpe, mas a página que você está procurando não existe.</p>
-      <img src="https://www.shutterstock.com/shutterstock/videos/1092123327/thumb/1.jpg?ip=x480" alt="Imagem de erro" />
+    <> 
+      <Header />
+    <div className="errorDiv">
+      <img src={ neymarImg } alt="neymar img"/>
+      <div className="allContent">
+ 
+        <h1 className="errorTitle h" >Error 404 - Page Not Found</h1>
+        <p className="errorTitle p">Neymar is just as confused as you are! This page does not exist.</p>
+        {/* <p className="errorTitle p">To Back to the beutif</p> */}
+      </div>
     </div>
+    </>
   );
 }
 

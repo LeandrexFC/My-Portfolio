@@ -1,0 +1,38 @@
+.errorDiv {
+  position: relative;
+  height: 100vh;
+}
+
+.errorDiv img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.allContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.h {
+  font-size: 10em;
+  margin-bottom: 0.5em;
+  color: rgb(218, 41, 28);
+  /* color: rgb(1, 66, 106); */
+}
+
+.p {
+  color: rgb(1, 66, 106);
+  margin-right: 30px;
+  font-size: 3.5em;
+  margin-top: 0.5em;
+}

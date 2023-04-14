@@ -41,7 +41,7 @@ class Home extends Component {
               <img src={ programmerImg } alt='Programmer Draw'  className='imgWelcome'/>
             </div>
             <div className='welcomeText'>
-              <h1 className='text1'> Welcomedsadsa. </h1>
+              <h1 className='text1'> Welcome. </h1>
                <Typing speed={50}>
                   <p className='textp'> 
                     My name is Leandro Sousa, I'm a Web developer from São Paulo, BR, <br/> 
@@ -108,7 +108,6 @@ class Home extends Component {
             ]}
           />
           </p>
-          {/* <h2 className='contactTextHome'>Would you like to talk to me for some reason?</h2> */}
           <p className='contactTextHome'>You can text me here:</p>
         <div id='allContactImgHome'>
           <a className='linkedinAHome' href='https://www.linkedin.com/in/leandro-sousa-dev/' target='_blank' rel="noreferrer">
