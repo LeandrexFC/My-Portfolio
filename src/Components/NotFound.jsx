@@ -9,7 +9,7 @@ function NotFound() {
     <> 
       <Header />
     <div className="errorDiv">
-    <img src={ neymarImg } />
+    <img src={ neymarImg } alt="neymarImg"/>
       <div className="allContent">
  
         <h1 className="errorTitle h" >Error 404 - Page Not Found</h1>
