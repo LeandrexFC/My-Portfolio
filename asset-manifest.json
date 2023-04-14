@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2f69433.css",
-    "main.js": "/static/js/main.8a3accd1.js",
+    "main.css": "/static/css/main.64087958.css",
+    "main.js": "/static/js/main.ff01a175.js",
     "static/media/Money-O-Change.png": "/static/media/Money-O-Change.c214d60a53373e97b58b.png",
     "static/media/profile-pic Linkedin.png": "/static/media/profile-pic Linkedin.dd1e04102c91164abbf9.png",
     "static/media/jestLogo.png": "/static/media/jestLogo.95bffbbd80a3ba10dfa4.png",
@@ -20,11 +20,11 @@
     "static/media/reactLogo.png": "/static/media/reactLogo.367a8df5ba9c7a95160e.png",
     "static/media/reduxLogo.png": "/static/media/reduxLogo.b3b939c66aecf7d53967.png",
     "index.html": "/index.html",
-    "main.d2f69433.css.map": "/static/css/main.d2f69433.css.map",
-    "main.8a3accd1.js.map": "/static/js/main.8a3accd1.js.map"
+    "main.64087958.css.map": "/static/css/main.64087958.css.map",
+    "main.ff01a175.js.map": "/static/js/main.ff01a175.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2f69433.css",
-    "static/js/main.8a3accd1.js"
+    "static/css/main.64087958.css",
+    "static/js/main.ff01a175.js"
   ]
 }
