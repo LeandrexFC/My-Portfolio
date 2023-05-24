@@ -191,7 +191,7 @@ body {
 .projectsHome {
   display: flex;
   background-color: #09090b;
-  height: 150vh;
+  height: 380%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -315,7 +315,7 @@ body {
   }
 
   .projectsHome { 
-    height: 90vh;
+    height: 300vh;
   }
 }
 
@@ -331,15 +331,13 @@ body {
     max-height: 230px;
     margin-right: 0vh;
   }
-  .projectsHome { 
-    height: 190vh;
-  }
 
   .contactTitleHome {
     margin-top: 150px;
   }
 
   .projectsHome {
+    height: 490vh;
     display: flex;
     background-color: #09090b;
     justify-content: center;
@@ -364,7 +362,8 @@ body {
   }
 
   .projectsHome { 
-    height: 140vh;
+    height: 480vh;
+    
   }
 
 }
