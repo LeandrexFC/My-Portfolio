@@ -13,6 +13,7 @@ import docker from '../images/docker.png'
 import sql from '../images/sql.png'
 import node from '../images/node.png'
 import sequelize from '../images/sequelize.png'
+import typescript from '../images/typescript.png'
 import Fade from 'react-reveal/Fade';
 import '../AllCss/Skills2.css'
 
@@ -35,11 +36,12 @@ import '../AllCss/Skills2.css'
     showTextDocker: false,
     showTextMysql: false,
     showTextSequelize: false, 
+    showTextType: false,
   }
   render() {
     const { showText, showTextHTML, showTextCSS, showTextjs, showTextReact, showTextJest,
       showTextRtl, showTextGit, showTextGitHub, showTextRedux, showTextMocha,
-      showTextChai, showTextSinon, showTextNode, showTextDocker, showTextMysql, showTextSequelize } = this.state;
+      showTextChai, showTextSinon, showTextNode, showTextDocker, showTextMysql, showTextSequelize, showTextType } = this.state;
     return (
       <>
         <Fade left>
@@ -118,12 +120,12 @@ import '../AllCss/Skills2.css'
               <p>Chai</p>
             </div>
 
-            <div className='card 10'
+            {/* <div className='card 10'
                onMouseEnter={ () => this.setState({ showTextSinon: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextSinon: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ sinon } alt='sinon Logo' />
               <p>Sinon</p>
-            </div>
+            </div> */}
 
             <div className='card 11'
                onMouseEnter={ () => this.setState({ showTextNode: true, showText: false }) }
@@ -152,6 +154,14 @@ import '../AllCss/Skills2.css'
               <img className='skillsImgHome imgt' src={ sequelize } alt='sequelize Logo' />
               <p>Sequelize</p>
             </div>
+
+            <div className='card b14'
+               onMouseEnter={ () => this.setState({ showTextType: true, showText: false }) }
+               onMouseLeave={ () => this.setState({ showTextType: false, showText: true }) }>
+              <img className='skillsImgHome imgt' src={ typescript } alt='typecript Logo' />
+              <p>typescript</p>
+            </div>
+
             </div>
         </Fade>
             </div>
@@ -215,6 +225,10 @@ import '../AllCss/Skills2.css'
 
             {
               showTextSequelize && <p className='skillstexts'> Sequelize is an Object-Relational Mapping (ORM) library for Node.js that provides a simple yet powerful way to interact with relational databases such as MySQL, PostgreSQL, and SQLite. </p>
+            }
+
+            {
+              showTextType && <p className='skillstexts'> TypeScript: statically-typed superset of JavaScript, adds optional static typing, improves code maintainability, catches errors early, compiles to JavaScript. </p>
             }
           </div>
           </Fade> }

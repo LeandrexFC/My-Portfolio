@@ -62,15 +62,17 @@
   flex-direction: column;
   margin-bottom: 3px;
   align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.cardsec2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .cardfir {
   font-size: 2.5rem;
-  color: white;
-}
-
-.pCard {
-  font-size: 1.5rem;
   color: white;
 }
 

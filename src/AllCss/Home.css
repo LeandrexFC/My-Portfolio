@@ -189,6 +189,7 @@ body {
 }
 
 .projectsHome {
+  margin-top: 10%;
   display: flex;
   background-color: #09090b;
   height: 380%;
