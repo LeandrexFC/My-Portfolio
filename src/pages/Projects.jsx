@@ -19,7 +19,7 @@ class Projects extends Component {
       <div>
         <ProjectsComponent />
       </div>
-      <p className='pProjects'> * Some projects may not work optimally on some mobile devices, I'm working to improve it. * </p>
+      <p className='pProjects'> * Alguns projetos podem não funcionar perfeitamente em dispositivos móveis, estou trabalhando para melhorar isso. * </p>
       </section>
       </Fade>
       <div className='projectsFooter'>

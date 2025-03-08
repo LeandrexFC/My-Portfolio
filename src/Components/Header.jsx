@@ -38,16 +38,16 @@ class Header extends Component {
               <nav>
                 <ul>
                   <li>
-                  <Link  id='about' to="/about"> About </Link>
+                  <Link  id='about' to="/about"> Sobre </Link>
                   </li>
                   <li>
                 <Link id='skills' to='/skills'> Skills </Link>
                   </li>
                   <li>
-                <Link id='projects' to="/projects"> Portfolio </Link>
+                <Link id='projects' to="/projects"> Projeto </Link>
                   </li>
                   <li>
-                <Link id='contact' to="/contact"> Contact </Link>
+                <Link id='contact' to="/contact"> Contato </Link>
                   </li>
                 </ul>
                 

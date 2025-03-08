@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Header from '../Components/Header';
 import PropTypes from 'prop-types';
 import '../AllCss/Home.css'
-import profilePic from '../images/profile-pic Linkedin.png';
+import profilePic from '../images/profile-pic Linkedin4.PNG';
 import LinkedinLogo from '../images/LinkedinLogo3.png';
 import emailLogo from '../images/emailLogo4.png';
 import Footer from '../Components/Footer';
@@ -41,11 +41,11 @@ class Home extends Component {
               <img src={ programmerImg } alt='Programmer Draw'  className='imgWelcome'/>
             </div>
             <div className='welcomeText'>
-              <h1 className='text1'> Welcome. </h1>
+              <h1 className='text1'> Bem vindo! </h1>
                <Typing speed={50}>
                   <p className='textp'> 
-                    My name is Leandro Sousa, I'm a Web developer from São Paulo, BR, <br/> 
-                    And I'm Loving the Developer World. </p>
+                  Meu nome é Leandro Sousa, sou Desenvolvedor e Analista de Dados de São Paulo, BR, <br/> 
+                  apaixonado por transformar dados em insights e impulsionar a tomada de decisões. </p>
                </Typing>
                   <button className='btn-home' type='button' onClick={ this.redirectToProjects }> PORTFOLIO </button>
             </div>
@@ -55,7 +55,7 @@ class Home extends Component {
         <section className='aboutTextHome2' >
           <div className='aboutTextHome'>
             <Fade Fade left>
-            <h1 id='aboutTitleHome'>About.</h1>
+            <h1 id='aboutTitleHome'>SOBRE MIM.</h1>
             </Fade >
             <div className='imgDiv'>
               <Fade left>
@@ -63,8 +63,7 @@ class Home extends Component {
               </Fade>
               </div> 
           <Fade left>
-            <p id='pAboutHome'> Hey, My name is Leandro Sousa, and I'm 19 years old. I have always been passionate about technology, but I always had many doubts about which career to pursue, until I found and discovered programming, from the first contact I had I fell in love, since then I started to always want to learn more. I'm currently studying Full Stack Web Development, and I'm learning more every day. Every project I complete makes me happier.
-            My dream is to be happy with my career, travel the world and make a positive impact on people's lives with my programming knowledge, and I won't stop until I achieve that. </p>
+            <p id='pAboutHome'> Sempre fui apaixonado por tecnologia, mas tive muitas dúvidas sobre qual carreira seguir até descobrir a análise de dados. Desde o meu primeiro contato com dados, fiquei fascinado pelo poder de transformar números em informações valiosas. Desde então, venho aprendendo e aprimorando minhas habilidades continuamente. Tenho experiência com ferramentas como Power BI, SAS e SQL, e adoro trabalhar com dados para apoiar decisões estratégicas. Meu objetivo é crescer na carreira, viajar pelo mundo e causar um impacto positivo, utilizando dados para resolver problemas reais. </p>
           </Fade>          
           </div>
         </section>
@@ -77,9 +76,9 @@ class Home extends Component {
 
       <section className='projectsHome'>
         <Fade left>
-        <h1 className='projectsTitleHome'> Projects. </h1>
+        <h1 className='projectsTitleHome'> Projetos. </h1>
         </Fade>
-        <p className='pProjects'> * Some projects may not work optimally on some mobile devices, I'm working to improve it. * </p>
+        <p className='pProjects'> * Alguns projetos podem não funcionar perfeitamente em dispositivos móveis, estou trabalhando para melhorar isso. * </p>
         <Fade left>  
         <ProjectsComponent />
         </Fade>
@@ -87,28 +86,26 @@ class Home extends Component {
 
       <div id='allContactHome'>
         <Fade left>
-          <h1 className='contactTitleHome'> Contact.</h1>
+          <h1 className='contactTitleHome'> Contato.</h1>
         <div id='allContactTextHome'>
           <p className='contactTextHome'>
-          Hey, Ask me Anything!
+          Fique à vontade para perguntar!
           <Typical 
             loop={Infinity}
             wrapper='p'
             steps={[
-              'Want to tell me something?',
+              'Precisa de ajuda em alguma coisa?',
               2000,
-              'Do you need help in something?',
+              'Tem algo em mente?',
               2000,
-              'Want to talk about any idea?',
+              'Vamos trocar ideias?!',
               2000,
-              'Want to do something together?!',
-              2000,
-              'Is there anything you would like to share with me?',
+              'Gostaria de compartilhar algo?',
               2000,
             ]}
           />
           </p>
-          <p className='contactTextHome'>You can text me here:</p>
+          <p className='contactTextHome'>Você me encontra aqui:</p>
         <div id='allContactImgHome'>
           <a className='linkedinAHome' href='https://www.linkedin.com/in/leandro-sousa-dev/' target='_blank' rel="noreferrer">
           <img src={ LinkedinLogo } alt='Linkedin Logo' className='linkedinImgHome'/>

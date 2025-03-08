@@ -43,6 +43,7 @@
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 1px 4px 6px gray;
+  background-color: #DDEEFF;
 }
 
 .cards:hover {
@@ -52,7 +53,7 @@
 
 .cardLogo {
   width: 100%;
-  max-width: 20px;
+  max-width: 22px;
   height: 20px;
   margin-right: 10px;
 }
@@ -63,7 +64,7 @@
   margin-bottom: 3px;
   align-items: center;
   font-size: 1.5rem;
-  color: white;
+  color: black;
 }
 
 .cardsec2 {
@@ -73,14 +74,21 @@
 
 .cardfir {
   font-size: 2.5rem;
-  color: white;
+  color: black;
 }
 
 .soon {
-  font-size: 90px;
+  font-size: 5vw; /* Responsivo, ajusta conforme a largura da tela */
   transform: rotate(-45deg);
-  color: white;
+  color: black;
+  word-wrap: break-word;
+  white-space: normal;
+}
 
+@media (max-width: 500px) {
+  .soon {
+      font-size: 10vw; /* Aumenta o tamanho da fonte em telas pequenas */
+  }
 }
 
 
@@ -117,11 +125,6 @@
     align-items: center;
   }
   
-
-  .soon {
-    font-size: 75px;
-  }
-  
 }
 
 @media (max-width: 658px) {
@@ -143,9 +146,6 @@
     max-height: 365px;
     max-width: 260px;
   }
-  .soon {
-    font-size: 65px;
-  }
 } 
 
 @media (max-width: 500px) {
@@ -166,14 +166,7 @@
     width: 490px;
     height: 200px;
   }
-
-
-  .soon {
-    font-size: 70px;
-    transform: rotate(-45deg);
-    color: white;
-  }
-
+  
   @media (max-width: 330px) {
     .cards {
       display: flex;

@@ -1,6 +1,5 @@
 .skill-content {
   display: flex;
-  height: 100vh;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -8,7 +7,7 @@
 .skillTitleHome {
   margin-top: 30px;
   margin-bottom: 5%;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 8rem;
 }
@@ -17,14 +16,12 @@
   text-align: center;
   align-items: center;
   font-size: 6rem;
-  color: white;
+  color: black;
 }
 
 .classSkillsTItle {
   margin: auto;
-  width: 55%;
-  /* height: 65%; */
-  /* border: solid 5px blue; */
+  width: 50%;
   display: flex;
   justify-content: space-between;
 }
@@ -70,7 +67,7 @@
 }
 
 .card p {
-  color: white;
+  color: black;
   font-size: 1.6rem;
   margin-top: 8px;
 }
@@ -78,7 +75,7 @@
 .skillsKnow {
   margin: auto;
   height: 300px;
-  color: white;
+  color: black;
   width: 100%;
   max-width: 300px;
 }
@@ -92,14 +89,13 @@
 @media (max-width: 980px) {
 
   .skillTitleHome {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 8rem;
   }
 
   .skill-content {
     display: flex;
-    height: 100vh;
     justify-content: space-evenly;
     align-items: center;
   }
@@ -156,7 +152,7 @@
     .skillTitleHome {
       margin-top: 30px;
       margin-bottom: 5%;
-      color: white;
+      color: black;
       text-align: center;
       font-size: 6rem;
     }
@@ -165,7 +161,7 @@
       text-align: center;
       align-items: center;
       font-size: 4rem;
-      color: white;
+      color: black;
     }
 
     .skillsHome {

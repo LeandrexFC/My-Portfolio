@@ -10,8 +10,12 @@ html {
 
 body {
   height: 100vh;
-  background-color: #040405;
+  background-color: #DDEEFF;
   font-family: 'Bebas Neue';
+}
+
+.imgWelcome {
+  border-radius: 43%;
 }
 
 .skillshomee {
@@ -45,8 +49,8 @@ body {
 }
 
 .text1 {
-  color: white;
-  font-size: 13.2rem;
+  color: black;
+  font-size: 11.2rem;
   transition: all 0.3s ease-out;
 }
 
@@ -56,7 +60,7 @@ body {
 }
 
 .textp {
-  color: white;
+  color: black;
   font-size: 2rem;
   text-align: center;
 }
@@ -83,7 +87,9 @@ body {
   width: 100%;
   max-width: 220px;
   margin-bottom: 25px;
+  border-radius: 100%;
 }
+
 
 .aboutTextHome {
   width: 100%;
@@ -93,22 +99,24 @@ body {
 }
 
 .aboutTextHome2 {
-  background-color: #09090b;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  height: 100vh;
+  height: 110vh;
 }
 
 #aboutTitleHome {
   margin-top: 30px;
   font-size: 8rem;
+  color: black;
 } 
 
 #pAboutHome {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   word-spacing: 2px;
+  color: black;
 }
 
 #allContactHome {
@@ -182,24 +190,27 @@ body {
 
 .projectsTitleHome {
   margin-top: 30px;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 8rem;
   /* margin-bottom: 10vh; */
 }
 
-.projectsHome {
-  margin-top: 10%;
-  display: flex;
-  background-color: #09090b;
-  height: 380%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
 .pProjects {
   margin-bottom: 10vh;
+}
+
+.projectsHome {
+  margin-top: 5%; /* Ajuste a margem para ficar mais balanceado em telas maiores */
+  display: flex;
+  background-color: white;
+  height: auto; /* Usar altura automática em vez de um valor fixo */
+  min-height: 400px; /* Defina uma altura mínima para evitar que a seção fique muito pequena */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px; /* Adiciona um pouco de espaçamento nas laterais */
 }
 
 @media (min-width: 1940px) {
@@ -259,15 +270,6 @@ body {
     height: 70vh;
   }
 
-  .aboutTextHome2 {
-    background-color: #09090b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-     height: 70vh; 
-  }
-
   .text1 {
     color: white;
     font-size: 9.2rem;
@@ -287,12 +289,6 @@ body {
     margin-right: 50px;
   }
 
-  #pAboutHome {
-    font-size: 1.8rem;
-    word-spacing: 2px;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
 
   .contactTitleHome {
     font-size: 5rem;
@@ -302,10 +298,7 @@ body {
     font-size: 5rem;
   }
 
-  #aboutTitleHome {
-    margin-top: 30px;
-    font-size: 5rem;
-  }
+  
   
   .btn-home {
     width: 50%;    
@@ -315,8 +308,12 @@ body {
     font-size: 2.4rem;
   }
 
-  .projectsHome { 
-    height: 300vh;
+}
+
+@media (max-width: 768px) {
+  .projectsHome {
+    margin-top: 10%; /* Ajuste a margem para dispositivos móveis */
+    height: auto; /* Garante que a altura se ajuste conforme o conteúdo */
   }
 }
 
@@ -337,16 +334,6 @@ body {
     margin-top: 150px;
   }
 
-  .projectsHome {
-    height: 490vh;
-    display: flex;
-    background-color: #09090b;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-
 } 
 
 @media (max-width: 330px) {
@@ -362,9 +349,8 @@ body {
     margin-right: 0vh;
   }
 
-  .projectsHome { 
-    height: 480vh;
-    
+  .projectsHome {
+    margin-top: 15%; /* Ajusta mais para telas muito pequenas */
   }
 
 }

@@ -48,8 +48,8 @@ import '../AllCss/Skills2.css'
           <h1 className='skillTitleHome skillTitle'>Skills.</h1>
         
           <div className='classSkillsTItle'>
-            <h2 className='frontTitle'>Front-End</h2>
-            <h2 className='frontTitle'>Back-End</h2>
+            <h2 className='frontTitle'>Dev</h2>
+            <h2 className='frontTitle'>Dados</h2>
           </div>
           </Fade>
         <div className='skill-content skill'>
@@ -83,83 +83,35 @@ import '../AllCss/Skills2.css'
               <img className='skillsImgHome imgt' src={ reactLogo }  alt='react Logo' />
               <p>React</p>
             </div>
-
-            <div className='card 5'
-               onMouseEnter={ () => this.setState({ showTextRedux: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextRedux: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ reduxLogo }  alt='react Logo' />
-              <p>Redux</p>
-            </div>
-
-            <div className='card 6'
-               onMouseEnter={ () => this.setState({ showTextJest: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextJest: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ jestLogo } alt='jest Logo' />
-              <p>Jest</p>
-            </div>
-
-            <div className='card 7'
-               onMouseEnter={ () => this.setState({ showTextRtl: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextRtl: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ rtlLogo } alt='rtl Logo' />
-              <p>RTL</p>
-            </div>
             </div>
             <div className='skillsHome'>
             <div className='card 8'
                 onMouseEnter={ () => this.setState({ showTextMocha: true, showText: false }) }
                 onMouseLeave={ () => this.setState({ showTextMocha: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ mochaLogo } alt='mocha Logo' />
-              <p>Mocha</p>
+              <p>Power Bi</p>
             </div>
 
             <div className='card 9'
                onMouseEnter={ () => this.setState({ showTextChai: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextChai: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ chai } alt='chai Logo' />
-              <p>Chai</p>
+              <p>Excel</p>
             </div>
 
-            {/* <div className='card 10'
-               onMouseEnter={ () => this.setState({ showTextSinon: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextSinon: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ sinon } alt='sinon Logo' />
-              <p>Sinon</p>
-            </div> */}
 
             <div className='card 11'
                onMouseEnter={ () => this.setState({ showTextNode: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextNode: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ node } alt='node Logo' />
-              <p>Node</p>
-            </div>
-
-            <div className='card 12'
-               onMouseEnter={ () => this.setState({ showTextDocker: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextDocker: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ docker } alt='docker Logo' />
-              <p>Docker</p>
-            </div>
-
-            <div className='card 13'
-               onMouseEnter={ () => this.setState({ showTextMysql: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextMysql: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ sql } alt='sql Logo' />
-              <p>MySQL</p>
+              <p>SQL</p>
             </div>
 
             <div className='card b14'
                onMouseEnter={ () => this.setState({ showTextSequelize: true, showText: false }) }
                onMouseLeave={ () => this.setState({ showTextSequelize: false, showText: true }) }>
               <img className='skillsImgHome imgt' src={ sequelize } alt='sequelize Logo' />
-              <p>Sequelize</p>
-            </div>
-
-            <div className='card b14'
-               onMouseEnter={ () => this.setState({ showTextType: true, showText: false }) }
-               onMouseLeave={ () => this.setState({ showTextType: false, showText: true }) }>
-              <img className='skillsImgHome imgt' src={ typescript } alt='typecript Logo' />
-              <p>typescript</p>
+              <p>AWS</p>
             </div>
 
             </div>
@@ -168,68 +120,41 @@ import '../AllCss/Skills2.css'
         { <Fade left>
           <div className='skillsKnow'>
             {
-              showText && <p className='skillstexts'> Hover over the skill on the side to learn more.</p>
+              showText && <p className='skillstexts'> Toque ou passe o mouse sobre a habilidade ao lado para saber mais.</p>
             }
                      
             {
-              showTextHTML && <p className='skillstexts'> HTML, or Hypertext Markup Language, is the standard language used to create web pages. It consists of a series of elements, or tags, enclosed in angle brackets, that describe the structure and content of the page. </p> 
+              showTextHTML && <p className='skillstexts'> HTML é a linguagem de marcação usada para estruturar páginas da web, definindo elementos como textos, imagens, links e formulários. </p> 
             }
 
             {
-              showTextCSS && <p className='skillstexts'> CSS, or Cascading Style Sheets, is a language used to describe the layout and presentation of a document written in a markup language such as HTML. </p>
+              showTextCSS && <p className='skillstexts'> CSS é a linguagem de estilo que define a aparência de páginas da web, permitindo personalizar cores, fontes, layouts e responsividade. </p>
             }
 
             {
-              showTextjs && <p className='skillstexts'> JavaScript is a programming language that is used primarily to create interactive and dynamic effects on websites. </p>
+              showTextjs && <p className='skillstexts'> JavaScript é uma linguagem de programação que torna páginas da web interativas, permitindo manipular elementos, criar animações e desenvolver aplicações dinâmicas. </p>
             }
 
             {
-              showTextReact && <p className='skillstexts'> React is a JavaScript library for building user interfaces, specifically for building reusable UI components. </p>
+              showTextReact && <p className='skillstexts'> React é uma biblioteca JavaScript desenvolvida pelo Facebook para criar interfaces de usuário interativas e dinâmicas, utilizando componentes reutilizáveis e tornando o desenvolvimento web mais eficiente e escalável. </p>
             }
 
             {
-              showTextRedux && <p className='skillstexts'> Redux is a JavaScript library for managing application state. It uses a centralized store and follows the principles of immutability and unidirectional data flow to make it easier to understand and predict the behavior of an application. </p>
+              showTextMocha && <p className='skillstexts'>Power BI é uma ferramenta de Business Intelligence da Microsoft que permite analisar e visualizar dados de forma interativa. Com integração a diversas fontes, facilita a criação de dashboards e relatórios para apoiar a tomada de decisões.  </p>
             }
 
             {
-              showTextJest && <p className='skillstexts'> Jest is a JavaScript testing framework. It is used to test JavaScript code, including React and other JavaScript libraries.  </p>
+              showTextChai && <p className='skillstexts'> Excel é uma ferramenta da Microsoft para criação e análise de planilhas, permitindo organizar dados, aplicar fórmulas, gerar gráficos e criar relatórios interativos. </p>
             }
 
             {
-              showTextRtl && <p className='skillstexts'> React Testing Library is a library for testing React components that encourages good testing practices.  </p>
+              showTextNode && <p className='skillstexts'> SQL é uma linguagem de consulta usada para gerenciar e manipular bancos de dados, permitindo armazenar, recuperar e analisar dados de forma eficiente. </p>
             }
 
             {
-              showTextMocha && <p className='skillstexts'> Mocha is a feature-rich JavaScript testing framework that runs on Node.js and in the browser. It provides a flexible and powerful API for writing test suites and supports a variety of testing styles, including BDD, TDD, and QUnit-style.  </p>
+              showTextSequelize && <p className='skillstexts'> AWS é uma plataforma de computação em nuvem da Amazon que oferece serviços como armazenamento, banco de dados, computação e machine learning, permitindo escalabilidade e alta disponibilidade para aplicações. </p>
             }
 
-            {
-              showTextChai && <p className='skillstexts'> Chai is an assertion library for Node.js and the browser that provides a variety of assertion styles for testing JavaScript code. It supports both BDD and TDD assertion styles and provides a fluent, expressive API for creating assertions. </p>
-            }
-
-            {
-              showTextSinon && <p className='skillstexts'> Sinon is a JavaScript testing library for Node.js and the browser that provides several utilities for creating and managing test doubles (i.e. mock objects, stubs, and spies). </p>
-            }
-
-            {
-              showTextNode && <p className='skillstexts'> Node.js is an open-source, cross-platform, JavaScript runtime environment that allows developers to build server-side applications using JavaScript. </p>
-            }
-
-            {
-              showTextDocker && <p className='skillstexts'> Docker is an open-source platform for building, shipping, and running applications in containers. Containers are lightweight, portable, and self-sufficient environments that can run on any machine, making them an ideal choice for modern software development and deployment.  </p>
-            }
-
-            {
-              showTextMysql && <p className='skillstexts'> MySQL is an open-source relational database management system that uses SQL (Structured Query Language) to manage and manipulate data. </p>
-            }
-
-            {
-              showTextSequelize && <p className='skillstexts'> Sequelize is an Object-Relational Mapping (ORM) library for Node.js that provides a simple yet powerful way to interact with relational databases such as MySQL, PostgreSQL, and SQLite. </p>
-            }
-
-            {
-              showTextType && <p className='skillstexts'> TypeScript: statically-typed superset of JavaScript, adds optional static typing, improves code maintainability, catches errors early, compiles to JavaScript. </p>
-            }
           </div>
           </Fade> }
         
